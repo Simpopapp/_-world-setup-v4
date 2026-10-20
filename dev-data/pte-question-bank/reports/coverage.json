@@ -1,0 +1,382 @@
+{
+ "versao": 1,
+ "totalItens": 2823,
+ "tiposComBanco": 22,
+ "porProveniencia": {
+  "comunitaria": 2542,
+  "corroborada": 207,
+  "verificada": 74
+ },
+ "porSecao": {
+  "speaking": 1538,
+  "writing": 132,
+  "reading": 241,
+  "listening": 912
+ },
+ "porTipo": {
+  "wfd": {
+   "secao": "listening",
+   "itens": 551,
+   "minimo": 300,
+   "ideal": 900,
+   "situacao": "ok",
+   "proveniencia": {
+    "comunitaria": 530,
+    "corroborada": 21
+   },
+   "fontes": {
+    "goarno": 48,
+    "cand-85": 144,
+    "cand-76": 359
+   }
+  },
+  "repeat_sentence": {
+   "secao": "speaking",
+   "itens": 682,
+   "minimo": 200,
+   "ideal": 550,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 550,
+    "corroborada": 132
+   },
+   "fontes": {
+    "goarno": 49,
+    "cand-86": 100,
+    "cand-87": 224,
+    "cand-88": 62,
+    "cand-90": 30,
+    "cand-76": 217
+   }
+  },
+  "sst": {
+   "secao": "listening",
+   "itens": 58,
+   "minimo": 60,
+   "ideal": 120,
+   "situacao": "abaixo-do-minimo",
+   "proveniencia": {
+    "comunitaria": 56,
+    "verificada": 2
+   },
+   "fontes": {
+    "goarno": 50,
+    "cand-66": 2,
+    "cand-67": 4,
+    "cand-21": 2
+   }
+  },
+  "lst_fib": {
+   "secao": "listening",
+   "itens": 53,
+   "minimo": 60,
+   "ideal": 100,
+   "situacao": "abaixo-do-minimo",
+   "proveniencia": {
+    "comunitaria": 53
+   },
+   "fontes": {
+    "goarno": 50,
+    "cand-58": 3
+   }
+  },
+  "lst_hcs": {
+   "secao": "listening",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "lst_smw": {
+   "secao": "listening",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "lst_hiw": {
+   "secao": "listening",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "read_aloud": {
+   "secao": "speaking",
+   "itens": 340,
+   "minimo": 100,
+   "ideal": 200,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 301,
+    "corroborada": 39
+   },
+   "fontes": {
+    "stormedugo": 50,
+    "cand-81": 5,
+    "cand-70": 5,
+    "cand-69": 8,
+    "cand-82": 5,
+    "cand-68": 19,
+    "cand-71": 6,
+    "cand-74": 43,
+    "cand-75": 45,
+    "cand-76": 145,
+    "cand-78": 3,
+    "cand-79": 3,
+    "cand-80": 3
+   }
+  },
+  "describe_image": {
+   "secao": "speaking",
+   "itens": 20,
+   "minimo": 20,
+   "ideal": 60,
+   "situacao": "ok",
+   "proveniencia": {
+    "verificada": 20
+   },
+   "fontes": {
+    "owid": 20
+   }
+  },
+  "retell_lecture": {
+   "secao": "speaking",
+   "itens": 62,
+   "minimo": 40,
+   "ideal": 80,
+   "situacao": "ok",
+   "proveniencia": {
+    "comunitaria": 62
+   },
+   "fontes": {
+    "edknot-retell": 12,
+    "cand-42": 50
+   }
+  },
+  "answer_short": {
+   "secao": "speaking",
+   "itens": 378,
+   "minimo": 80,
+   "ideal": 140,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 363,
+    "corroborada": 15
+   },
+   "fontes": {
+    "edknot": 20,
+    "cand-22": 190,
+    "cand-23": 50,
+    "cand-24": 98,
+    "cand-25": 20
+   }
+  },
+  "sgd": {
+   "secao": "speaking",
+   "itens": 25,
+   "minimo": 12,
+   "ideal": 40,
+   "situacao": "ok",
+   "proveniencia": {
+    "verificada": 25
+   },
+   "fontes": {
+    "pearson": 25
+   }
+  },
+  "rts": {
+   "secao": "speaking",
+   "itens": 31,
+   "minimo": 30,
+   "ideal": 60,
+   "situacao": "ok",
+   "proveniencia": {
+    "verificada": 27,
+    "comunitaria": 4
+   },
+   "fontes": {
+    "pearson": 27,
+    "cand-28": 4
+   }
+  },
+  "write_essay": {
+   "secao": "writing",
+   "itens": 79,
+   "minimo": 30,
+   "ideal": 60,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 79
+   },
+   "fontes": {
+    "band9": 43,
+    "langacad": 36
+   }
+  },
+  "read_fib_dropdown": {
+   "secao": "reading",
+   "itens": 41,
+   "minimo": 40,
+   "ideal": 80,
+   "situacao": "ok",
+   "proveniencia": {
+    "comunitaria": 41
+   },
+   "fontes": {
+    "goarno": 29,
+    "cand-47": 12
+   }
+  },
+  "read_fib_drag": {
+   "secao": "reading",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "read_mcq_single": {
+   "secao": "reading",
+   "itens": 50,
+   "minimo": 60,
+   "ideal": 110,
+   "situacao": "abaixo-do-minimo",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "read_mcq_multi": {
+   "secao": "reading",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "reorder_paragraphs": {
+   "secao": "reading",
+   "itens": 50,
+   "minimo": 40,
+   "ideal": 80,
+   "situacao": "ok",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno-reorder": 35,
+    "edknot-reorder": 10,
+    "cand-56": 5
+   }
+  },
+  "swt": {
+   "secao": "writing",
+   "itens": 53,
+   "minimo": 40,
+   "ideal": 80,
+   "situacao": "ok",
+   "proveniencia": {
+    "comunitaria": 53
+   },
+   "fontes": {
+    "goarno": 50,
+    "cand-55": 3
+   }
+  },
+  "lst_mcq_single": {
+   "secao": "listening",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  },
+  "lst_mcq_multi": {
+   "secao": "listening",
+   "itens": 50,
+   "minimo": 20,
+   "ideal": 50,
+   "situacao": "ideal",
+   "proveniencia": {
+    "comunitaria": 50
+   },
+   "fontes": {
+    "goarno": 50
+   }
+  }
+ },
+ "lacunas": [
+  "sst",
+  "lst_fib",
+  "read_mcq_single"
+ ],
+ "puladosComMotivo": [
+  "Discussão em grupo (SGD) de uma fonte comunitária: página só trazia resumo-modelo, sem as falas — não integrada (exigiria inventar conteúdo).",
+  "Repeat Sentence de uma fonte (25 linhas truncadas) — puladas.",
+  "Summarize Spoken Text de uma lista de previsão sem resposta-modelo — não extraída.",
+  "Um Fill-in-the-blanks dropdown com menos de 3 opções — pulado.",
+  "Listening FIB de uma fonte sem template recuperável — não extraída."
+ ],
+ "revisaoManual": [
+  {
+   "id": "stormedugo-read_aloud-025",
+   "motivo": "21 palavras (faixa 25–120): mantido, sinalizado"
+  },
+  {
+   "id": "stormedugo-read_aloud-045",
+   "motivo": "24 palavras (faixa 25–120): mantido, sinalizado"
+  },
+  {
+   "id": "edknot-retell_lecture-006",
+   "motivo": "transcript com 349 palavras (faixa 80–260): mantido, sinalizado"
+  },
+  {
+   "id": "edknot-retell_lecture-010",
+   "motivo": "transcript com 296 palavras (faixa 80–260): mantido, sinalizado"
+  },
+  {
+   "id": "band9-write_essay-041",
+   "motivo": "prompt com 14 palavras (faixa 15–120): mantido, sinalizado"
+  },
+  {
+   "id": "band9-write_essay-042",
+   "motivo": "prompt com 14 palavras (faixa 15–120): mantido, sinalizado"
+  }
+ ]
+}

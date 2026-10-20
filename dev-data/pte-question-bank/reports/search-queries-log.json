@@ -1,0 +1,1119 @@
+{
+ "versao": 1,
+ "descricao": "Consultas de busca executadas na descoberta de fontes (inclusive as sem resultado útil). Serve de memória para não repetir buscas.",
+ "resumo": {
+  "totalQueries": 178,
+  "byType": {
+   "answer_short": {
+    "queries": 15,
+    "empty": 0
+   },
+   "geral": {
+    "queries": 43,
+    "empty": 0
+   },
+   "lst_hcs": {
+    "queries": 15,
+    "empty": 0
+   },
+   "lst_hiw": {
+    "queries": 15,
+    "empty": 0
+   },
+   "lst_mcq_multi": {
+    "queries": 15,
+    "empty": 0
+   },
+   "lst_mcq_single": {
+    "queries": 15,
+    "empty": 0
+   },
+   "lst_smw": {
+    "queries": 15,
+    "empty": 0
+   },
+   "read_mcq_multi": {
+    "queries": 15,
+    "empty": 0
+   },
+   "rts": {
+    "queries": 15,
+    "empty": 0
+   },
+   "sgd": {
+    "queries": 15,
+    "empty": 0
+   }
+  }
+ },
+ "consultas": [
+  {
+   "query": "PTE highlight correct summary transcript answers",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "HCS PTE pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "listening highlight summary PTE list",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight correct summary \"most repeated\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS \"prediction file\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS \"memory based\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS \"exam recall\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação. Recall retornado sem itens verificáveis deste tipo; busca improdutiva."
+  },
+  {
+   "query": "PTE highlight correct summary questions answers filetype:pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight correct summary real exam 2025",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS prediction 2026 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight correct summary transcript practice answer explanation",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight correct summary essential questions",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS repeated questions Australia Nepal",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HCS questions answers site:reddit.com",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight correct summary practice transcript part 2",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hcs; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight incorrect words transcript answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "HIW PTE pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "highlight wrong words PTE list",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW \"most repeated\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW \"prediction file\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW \"memory based\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW \"exam recall\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação. Recall retornado sem itens verificáveis deste tipo; busca improdutiva."
+  },
+  {
+   "query": "PTE highlight incorrect words answers filetype:pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight incorrect words real exam 2025",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW prediction 2026 transcript",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight incorrect words practice transcript explanation",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight incorrect words essential questions",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW repeated questions Nepal Australia",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE HIW questions answers site:reddit.com",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE highlight incorrect words practice part 2 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_hiw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE select missing word transcript answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "SMW PTE questions pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "beep missing word PTE list",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW \"most repeated\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW \"prediction file\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW \"memory based\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação. Dois resultados alheios ao PTE (SMW videogame e engenharia); sem recall SMW utilizável."
+  },
+  {
+   "query": "PTE SMW \"exam recall\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação. Recall retornado sem itens verificáveis deste tipo; busca improdutiva."
+  },
+  {
+   "query": "PTE select missing word answers filetype:pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE select missing word real exam 2025",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW prediction 2026 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE select missing word practice transcript explanation",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE select missing word essential questions",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW repeated questions Nepal Australia",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE SMW questions answers site:reddit.com",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE select missing word practice part 2 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_smw; leitura do texto retornado pelo índice, sem fetch direto; resultados não equivalem a aprovação."
+  },
+  {
+   "query": "PTE listening MCQ single answer transcript pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "listening multiple choice PTE with audio script",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer questions answers list",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ single \"most repeated\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ single \"prediction file\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ single \"memory based\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ single \"exam recall\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple choice single answers filetype:pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer real exam 2025",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer prediction 2026",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer transcript explanation practice",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer essential questions",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer repeated Nepal Australia",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer questions site:reddit.com",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening single answer practice part 2 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_single; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening select multiple answers pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "listening MCQ multiple transcript answers PTE",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers questions list",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ multiple \"most repeated\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ multiple \"prediction file\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ multiple \"memory based\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening MCQ multiple \"exam recall\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple choice multiple answers filetype:pdf",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers real exam 2025",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers prediction 2026",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers transcript explanation practice",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers essential questions",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers repeated Nepal Australia",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers questions site:reddit.com",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE listening multiple answers practice part 2 answers",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "lst_mcq_multi; texto retornado pelo índice; recalls/genéricas sem confirmação de item real; fontes conhecidas não recadastradas."
+  },
+  {
+   "query": "PTE answer short question pdf with answers",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "ASQ most repeated PTE",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE short questions one word answers list",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE ASQ \"memory based\" answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Hascart: alegação memory-based, mas nenhum item visível; não cadastrada."
+  },
+  {
+   "query": "PTE answer short question \"exam recall\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE answer short question prediction 2026 pdf",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE answer short question most repeated filetype:pdf",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE ASQ real exam questions with answers 2025",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE ASQ \"Successor\" \"Font\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Ruído de tipografia e Scribd; sem corroboração útil."
+  },
+  {
+   "query": "PTE answer short question \"Water\" \"Singular\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE ASQ questions answers site:reddit.com",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Relatos de preparação, não banco de itens."
+  },
+  {
+   "query": "PTE answer short questions site:github.com license",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Licenças MIT/Apache declaradas; README não prova proveniência de questões reais."
+  },
+  {
+   "query": "PTE answer short question pteielts questions pdf",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Dois PDFs separados de perguntas e respostas pteielts; não reivindicada autenticidade."
+  },
+  {
+   "query": "PTE short answer questions \"most repeated\" answers list 200",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE ASQ \"prediction file\" answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "answer_short: One Australia exige entrega por WhatsApp; não solicitado contato."
+  },
+  {
+   "query": "PTE reading multiple choice multiple answers pdf answers",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "reading multi MCQ PTE list",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "select multiple answers PTE",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE reading multiple answers \"memory based\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Guia genérico e PTE Core; sem itens Academic verificáveis."
+  },
+  {
+   "query": "PTE reading MCQ multiple \"exam recall\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Arquivo de recalls sem MCMA útil; resultado single-answer excluído."
+  },
+  {
+   "query": "PTE reading multiple answers \"most repeated\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Estratégia genérica e FIB; não cadastrados."
+  },
+  {
+   "query": "PTE reading multiple answers prediction 2025 2026",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE reading multiple answers filetype:pdf answer key",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: PDF PTE Core excluído; ExamSAM pago, não acessado."
+  },
+  {
+   "query": "PTE reading multiple answers \"Spain\" answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE reading \"Information Fatigue Syndrome\" answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: RealPTE e exercício não PTE; sem C1."
+  },
+  {
+   "query": "PTE reading \"Noodles\" multiple answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: RealPTE e Describe Image; sem C1."
+  },
+  {
+   "query": "PTE reading multiple answers practice ptepractice",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE reading multiple answers questions site:reddit.com",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Estratégias/vídeo, sem gabarito textual."
+  },
+  {
+   "query": "PTE reading multiple answers site:github.com license",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE reading multiple answers with explanations free questions",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "read_mcq_multi: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "summarize group discussion PTE questions transcript",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "SGD PTE examples with model answer",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE speaking group discussion practice",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE SGD \"memory based\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: 2 resultados irrelevantes de otimização matemática; zero fontes PTE úteis."
+  },
+  {
+   "query": "PTE summarize group discussion \"exam recall\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: EasyPTE e arquivo antigo de recalls; sem recall SGD comprovado."
+  },
+  {
+   "query": "PTE summarize group discussion \"most repeated\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE SGD prediction 2026 answers transcript",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE summarize group discussion filetype:pdf answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Somente Pearson já conhecido; não recadastrado."
+  },
+  {
+   "query": "PTE SGD \"recycling\" \"Answer\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE summarize group discussion \"student club fair\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Mesmo operador AlfaPTE; não é C1 independente."
+  },
+  {
+   "query": "PTE SGD real exam questions transcript model summary 2025",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE summarize group discussion site:reddit.com questions",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Discussões de estratégia, sem itens com respostas."
+  },
+  {
+   "query": "PTE summarize group discussion site:github.com license questions",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE summarize group discussion practice questions answers APEUni",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Somente fontes conhecidas goarno/Pearson; não recadastradas."
+  },
+  {
+   "query": "PTE SGD sample transcript model answer free no login",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "sgd: Arno conhecido e Gurully sem item textual nesta página; esgotamento sem C1/C2 sólido para SGD."
+  },
+  {
+   "query": "re-tell sentence PTE questions",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "rts: Resultados Repeat Sentence excluídos: rts novo é Respond to a Situation."
+  },
+  {
+   "query": "PTE RTS practice with answers",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "rts: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "repeat tell sentence PTE list",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "rts: Repeat Sentence/Stormedugo excluídos; não são rts."
+  },
+  {
+   "query": "PTE \"re-tell sentence\" new 2025",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Termo re-tell sentence aparece em guia antigo de 2022, não como tarefa nova."
+  },
+  {
+   "query": "PTE \"repeat tell sentence\" questions answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Retorna Repeat Sentence e EdKnot conhecido; excluídos."
+  },
+  {
+   "query": "PTE RTS \"Respond to a Situation\" Academic sample answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Pearson confirma Respond to a Situation, 10 segundos de preparo/40 de fala; domínio conhecido."
+  },
+  {
+   "query": "PTE respond to a situation \"memory based\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Guias genéricos sem recall verificável."
+  },
+  {
+   "query": "PTE respond to a situation \"exam recall\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Recalls antigos de outros tipos; zero itens RTS úteis."
+  },
+  {
+   "query": "PTE respond to a situation \"most repeated\" answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: PTE Mocks genérico e guia Core; não inscritos como Academic."
+  },
+  {
+   "query": "PTE respond to a situation prediction 2026 academic",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE respond to a situation filetype:pdf sample answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: PTE Nepal: 4 respostas declaradas abertas, PDF de 10 exige login; robots 403 encerrou acesso."
+  },
+  {
+   "query": "PTE RTS Academic \"professor\" \"Sample Answer\"",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Resultados lidos na extração do buscador; resultados conhecidos/duplicados não recadastrados."
+  },
+  {
+   "query": "PTE respond to a situation site:reddit.com exam questions",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Resultados explicitamente Core; excluídos."
+  },
+  {
+   "query": "PTE respond to a situation site:github.com license",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: README de simuladores, sem prova de itens reais."
+  },
+  {
+   "query": "PTE Academic respond situation gurully sample answers",
+   "tool": "websearch",
+   "result": "2 resultados",
+   "notes": "rts: Guia Academic Gurully e guia Core; esgotamento de recalls independentes RTS."
+  },
+  {
+   "query": "https://www.gurully.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "https://ptehelper.com.au/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "https://sumlingo.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "https://alfapte.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "https://realpte.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "http://www.ptesprinters.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "Regras lidas; páginas selecionadas permitidas; requisições do mesmo host espaçadas em >1 s."
+  },
+  {
+   "query": "https://edubenchmark.com/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contornar; páginas não buscadas diretamente."
+  },
+  {
+   "query": "https://leapscholar.com/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contornar; páginas não buscadas diretamente."
+  },
+  {
+   "query": "https://www.kanan.co/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contornar; páginas não buscadas diretamente."
+  },
+  {
+   "query": "https://ptenepal.com/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contornar; páginas não buscadas diretamente."
+  },
+  {
+   "query": "https://ptehelper.com.au/tu-de-thi-pte-200-cau-answer-short-question-asq/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "640279 bytes; robots permitido"
+  },
+  {
+   "query": "https://alfapte.com/pte-speaking-practice/summarize-group-discussion/sample-questions",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "445672 bytes; robots permitido"
+  },
+  {
+   "query": "https://realpte.com/practice/reading-multiple-choice-multiple",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP Error 403: Forbidden"
+  },
+  {
+   "query": "https://www.gurully.com/blog/pte-short-answer-questions-list/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "337998 bytes; robots permitido"
+  },
+  {
+   "query": "https://www.gurully.com/exam/pte/pte-summarize-group-discussion-sample",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "187332 bytes; robots permitido"
+  },
+  {
+   "query": "https://www.gurully.com/pte-speaking-practice/respond-to-situation",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "238081 bytes; robots permitido"
+  },
+  {
+   "query": "https://www.gurully.com/blog/pte-academic-respond-to-a-situation/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "308547 bytes; robots permitido"
+  },
+  {
+   "query": "https://sumlingo.com/blog/most-100-repeated-pte-answer-short-questions/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "766965 bytes; robots permitido"
+  },
+  {
+   "query": "http://www.ptesprinters.com/exam-recall/50-answer-short-questions-prediction-list-1-dec-2019/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "80110 bytes; robots permitido"
+  },
+  {
+   "query": "PTE describe image list with answers",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "describe image most repeated charts PTE",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "PTE DI practice charts CC",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "PTE describe image graph examples with template pdf",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "Templates genéricos e PDF Pearson com All rights reserved; não registrar conhecidos nem templates sem imagens."
+  },
+  {
+   "query": "describe image map process diagram PTE list",
+   "tool": "websearch",
+   "result": "5 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "PTE \"describe image\" \"creative commons\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "PTE \"describe image\" \"Wikimedia\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"Water cycle\" \"public domain\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"pie chart\" \"CC0\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"bar chart\" \"Creative Commons Attribution 4.0\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"map\" \"population density\" \"public domain\"",
+   "tool": "websearch",
+   "result": "4 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:usgs.gov \"water cycle\" \"Public Domain\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "Texto retornado pelo buscador lido; contagem de resultados, não de questões aprovadas."
+  },
+  {
+   "query": "site:noaa.gov \"graph\" \"public domain\" climate",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "ERDDAP/datasets, sem conjunto estático de imagens com gabarito PTE; não cadastrado."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"frog life cycle\" \"Creative Commons Attribution\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "Resultados BY-SA, domínio público territorial e prancha histórica CC BY; não selecionados por inadequação ou ressalvas."
+  },
+  {
+   "query": "\"PTE\" \"describe image\" \"open license\"",
+   "tool": "websearch",
+   "result": "1 resultados",
+   "notes": "Falha semântica: único resultado sobre modelos de visão, irrelevante para PTE; nenhuma fonte aproveitável."
+  },
+  {
+   "query": "site:commons.wikimedia.org \"File:\" \"line graph\" \"CC0\"",
+   "tool": "websearch",
+   "result": "3 resultados",
+   "notes": "Ruído: teoria dos grafos e BY-SA; meia-vida CC0 aproveitada apenas como candidata suplementar."
+  },
+  {
+   "query": "https://commons.wikimedia.org/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contorno ou leitura direta posterior nesse host."
+  },
+  {
+   "query": "https://walnutenglish.academy/robots.txt",
+   "tool": "fetch",
+   "result": "bloqueado",
+   "notes": "HTTP 403; nenhuma tentativa de contorno ou leitura direta posterior nesse host."
+  },
+  {
+   "query": "https://www.usgs.gov/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; regras lidas; URLs de mídia/artigos consultadas não proibidas."
+  },
+  {
+   "query": "https://www.ptebank.com/robots.txt",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; regras lidas; URLs de mídia/artigos consultadas não proibidas."
+  },
+  {
+   "query": "https://www.usgs.gov/media/images/natural-water-cycle-jpg",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; texto e referências de imagens HTML lidos. Requisições sequenciais por host com pausa de 1,1 s; hosts independentes em paralelo."
+  },
+  {
+   "query": "https://www.usgs.gov/media/images/water-cycle-png",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; texto e referências de imagens HTML lidos. Requisições sequenciais por host com pausa de 1,1 s; hosts independentes em paralelo."
+  },
+  {
+   "query": "https://www.ptebank.com/recently-asked-pte-describe-images/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; texto e referências de imagens HTML lidos. Requisições sequenciais por host com pausa de 1,1 s; hosts independentes em paralelo."
+  },
+  {
+   "query": "https://www.ptebank.com/recently-asked-pte-describe-images-2021/",
+   "tool": "fetch",
+   "result": "ok",
+   "notes": "HTTP 200; texto e referências de imagens HTML lidos. Requisições sequenciais por host com pausa de 1,1 s; hosts independentes em paralelo."
+  }
+ ]
+}

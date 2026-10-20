@@ -1,0 +1,3416 @@
+{
+ "versao": 1,
+ "descricao": "Itens cuja proveniência foi elevada por aparecerem (similaridade >= 0,85) em 2 ou mais fontes de operadores independentes. Chave: id do item em questions/*.json.",
+ "itens": [
+  {
+   "item": "cand-81-read_aloud-051",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-81-read_aloud-052",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-81-read_aloud-053",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-81-read_aloud-055",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-70-read_aloud-056",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-70-read_aloud-057",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-70-read_aloud-058",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.867
+  },
+  {
+   "item": "cand-70-read_aloud-060",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-69-read_aloud-061",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-69-read_aloud-062",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-69-read_aloud-063",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-82-read_aloud-071",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-82-read_aloud-072",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptebank.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptebank.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptebank"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-68-read_aloud-077",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.971
+  },
+  {
+   "item": "cand-68-read_aloud-082",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.972
+  },
+  {
+   "item": "cand-68-read_aloud-083",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.972
+  },
+  {
+   "item": "cand-68-read_aloud-087",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.943
+  },
+  {
+   "item": "cand-71-read_aloud-095",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "ptestudent.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "ptestudent"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-71-read_aloud-096",
+   "tipo": "read_aloud",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptestudent.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptestudent"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-74-read_aloud-100",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-74-read_aloud-103",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.968
+  },
+  {
+   "item": "cand-74-read_aloud-104",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.978
+  },
+  {
+   "item": "cand-74-read_aloud-108",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-74-read_aloud-120",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.898
+  },
+  {
+   "item": "cand-74-read_aloud-121",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.974
+  },
+  {
+   "item": "cand-74-read_aloud-122",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-74-read_aloud-129",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.941
+  },
+  {
+   "item": "cand-74-read_aloud-130",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.976
+  },
+  {
+   "item": "cand-75-read_aloud-155",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptestudent.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptestudent"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.889
+  },
+  {
+   "item": "cand-75-read_aloud-164",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.875
+  },
+  {
+   "item": "cand-75-read_aloud-167",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.923
+  },
+  {
+   "item": "cand-75-read_aloud-170",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-75-read_aloud-173",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.912
+  },
+  {
+   "item": "cand-75-read_aloud-174",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.889
+  },
+  {
+   "item": "cand-75-read_aloud-176",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.951
+  },
+  {
+   "item": "cand-75-read_aloud-177",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.938
+  },
+  {
+   "item": "cand-75-read_aloud-185",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptestudent.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptestudent"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.957
+  },
+  {
+   "item": "cand-75-read_aloud-186",
+   "tipo": "read_aloud",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.92
+  },
+  {
+   "item": "cand-76-read_aloud-211",
+   "tipo": "read_aloud",
+   "fonteDoItem": "gurully.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptestudent.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptestudent"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-050",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-052",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-053",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-054",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-057",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-059",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-060",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-062",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-063",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-064",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-066",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-067",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-068",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-069",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-070",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-071",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-072",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-073",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.867
+  },
+  {
+   "item": "cand-86-repeat_sentence-074",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-075",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-078",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-081",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-085",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-086",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-087",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-088",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-090",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-091",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-092",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-093",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.857
+  },
+  {
+   "item": "cand-86-repeat_sentence-094",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-096",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-098",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.889
+  },
+  {
+   "item": "cand-86-repeat_sentence-099",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-101",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-103",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-104",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-106",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-107",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-109",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-110",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-111",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-112",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-115",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-117",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-118",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-119",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.9
+  },
+  {
+   "item": "cand-86-repeat_sentence-120",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.947
+  },
+  {
+   "item": "cand-86-repeat_sentence-121",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-122",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-123",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-124",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-125",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-126",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-127",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-128",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-129",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-130",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-132",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-133",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-135",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-136",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-137",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-138",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-139",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-140",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-141",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-142",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 4,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-143",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-144",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-145",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-146",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.9
+  },
+  {
+   "item": "cand-86-repeat_sentence-147",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-86-repeat_sentence-148",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-151",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-153",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-163",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-165",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-183",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.857
+  },
+  {
+   "item": "cand-87-repeat_sentence-190",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-191",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-192",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-195",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-207",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-222",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-233",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.933
+  },
+  {
+   "item": "cand-87-repeat_sentence-236",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-239",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-241",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-243",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-244",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-250",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-251",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-255",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-256",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-262",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-272",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-278",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-282",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-283",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-284",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-288",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-289",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-290",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-291",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-300",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-301",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-306",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-307",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-310",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-313",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-314",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-316",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-318",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-319",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-325",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-337",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-338",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-342",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-347",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 3,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-349",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-356",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-87-repeat_sentence-362",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.917
+  },
+  {
+   "item": "cand-87-repeat_sentence-366",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "ptehelper.com.au"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "ptehelper"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-382",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-383",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-385",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-387",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.875
+  },
+  {
+   "item": "cand-88-repeat_sentence-403",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-415",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-427",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-88-repeat_sentence-434",
+   "tipo": "repeat_sentence",
+   "fonteDoItem": "onepte.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "onepte.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "oneppte"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.917
+  },
+  {
+   "item": "cand-22-answer_short-091",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-094",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "sumlingo.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "sumlingo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.875
+  },
+  {
+   "item": "cand-22-answer_short-099",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-118",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-138",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-139",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.875
+  },
+  {
+   "item": "cand-22-answer_short-142",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.889
+  },
+  {
+   "item": "cand-22-answer_short-164",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-174",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-176",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-183",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-185",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-188",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-206",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-22-answer_short-207",
+   "tipo": "answer_short",
+   "fonteDoItem": "ptehelper.com.au",
+   "fontesQueTambemTrazem": [
+    "ptehelper.com.au",
+    "ptesprinters.com"
+   ],
+   "gruposOperador": [
+    "ptehelper",
+    "ptesprinters"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-064",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-074",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-077",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-081",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-082",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-089",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-098",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-100",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-101",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-103",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-104",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-109",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-113",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-114",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-115",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-116",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-121",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-131",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-153",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  },
+  {
+   "item": "cand-85-wfd-160",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 0.923
+  },
+  {
+   "item": "cand-85-wfd-161",
+   "tipo": "wfd",
+   "fonteDoItem": "stormedugo.com",
+   "fontesQueTambemTrazem": [
+    "gurully.com",
+    "stormedugo.com"
+   ],
+   "gruposOperador": [
+    "gurully",
+    "stormedugo"
+   ],
+   "independentes": true,
+   "qtdIndependentes": 2,
+   "melhorSimilaridade": 1
+  }
+ ]
+}

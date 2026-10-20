@@ -1,0 +1,42 @@
+# Roadmap — PTE Master Hub (project1)
+
+Fases em ordem de dependência (PRD §2 e §3). `[x]` só com gates verdes e números reais (PRD D13).
+Onda = distribuição do enxame (PRD §3). Próximo remix retoma na primeira fase `[ ]`.
+
+## Onda 0 — Fundação (agente principal)
+- [x] **Fase 1 — Contratos e catálogo:** domain/types.ts (= schema do banco), task-catalog.ts (22 tipos), ability-matrix.ts (fonte + aproximação). Gates: tsgo 0 erros ✔ · vitest 19/19 (catálogo 22 ids únicos) ✔ · build ✔
+- [x] **Fase 2 — Banco e manifesto:** questions×22 + aliases → src/data/questions, imagens → public/di, validate-bank OK, gen-manifest (total 2823), loader dinâmico por tipo. Gates: "OK — banco íntegro" + "OK — banco importado íntegro" ✔ · vitest 19/19 (consistência manifesto + anti-literais) ✔ · build ✔ · lint 0 erros/6 avisos ✔
+
+## Onda 1 — Progresso
+- [x] **Fase 3 — Integridade do progresso (execução: agente principal; spawn é somente-leitura neste ambiente — PRD decisão 10):** lib/progress completa (D5+D6): snapshots, agregados, log truncável, backup envelope (prévia/mesclar/substituir/desfazer), quarentena, migração, quota, dia local, SRS puro. Gates: vitest 58/58 (39 casos progresso/SRS/dia/storage) ✔ · tsgo 0 erros ✔ · lint 0 erros ✔ · build ✔
+
+## Onda 2 — Web + IA (paralela)
+- [x] **Fase 4 — Fundação web (execução: agente principal):** shell global (header + badge fila do dia + footer), tema mantido (índigo/âmbar), 9 rotas com head() próprio; client.ts + hooks use-progress; ajustes com meta/Studie/backup export-import-prévia-desfazer/reset; Gates: Playwright 8 rotas OK + 22 tipos disponíveis + 0 erros de página ✔ · tsgo 0 ✔ · lint 0 erros ✔ · vitest 58/58 ✔ · build ✔ · (pendente: screenshot 390×844 do ajuste responsivo)
+- [x] **Fase 5 — IA e harness (s3-ai):** gateway no servidor, 22 configs de avaliador versionados, saída zod, abstenção, anti-injeção, registro de versão na tentativa. Gates: chamada real gateway ✔ (smoke `scripts/ai-smoke.ts`, read_mcq_single correta → score 1, confidence high, run-ID 01a158e7…) · teste abstenção ✔ · teste anti-injeção ✔ · tsgo ✔ (vitest 67/67 · lint 0 erros · build ✔)
+
+## Onda 3 — Motores (paralela, 4 pacotes)
+- [x] **Fase 6a — s4-reading (execução: agente principal; spawn é somente-leitura — decisão 10):** 5 motores de leitura + UI + correção determinística integrada. Gates: Playwright por tipo ✔ (22/22 rotas com motor ativo, 0 erros de página) · vitest 81/81 (grading 11 casos) ✔ · gabarito só pós-envio ✔ · tsgo 0 ✔ · lint 0 erros ✔ · build ✔
+- [x] **Fase 6b — s5-listening (agente principal):** 9 motores (TTS real + modo degradado honesto; repeat_sentence por transcrição→IA). Gates: Playwright ✔ · vitest ✔ · voz real exibida ✔ (nome da voz; degradado com aviso quando sem voz) · tsgo 0 ✔ · build ✔
+- [x] **Fase 6c — s6-writing (agente principal):** swt + write_essay + contadores de formato; avaliador IA acionado no envio (SST real: parcialmente correto, rubrica v1 + modelo registrados). Gates: Playwright ✔ · vitest ✔ · avaliador acionado ✔ · tsgo 0 ✔ · build ✔
+- [x] **Fase 6d — s7-speaking (agente principal):** 6 motores com gravação (SpeechRecognition) e aviso honesto quando indisponível; answer_short por gabarito; sem resposta → envio desabilitado/não avaliado. Gates: Playwright ✔ · vitest ✔ · "não avaliado" sem áudio ✔ · tsgo 0 ✔ · lint 0 erros ✔ · build ✔
+
+## Onda 4 — Sessões + Medição (paralela)
+- [x] **Fase 7 — Sessões e diagnóstico (s8-sessoes; execução: agente principal):** sessões retomáveis (catálogo 10 itens por tipo + retomada na home), fila do dia real (queue.ts puro: dueAt <= now, ordem por vencimento, cap 30; botão na home quando dueTotal > 0), diagnóstico por categoria de erro (tags derivadas do grading objetivo: omissao/conteudo/armadilha/palavra), notas privadas/favoritos por questão (painel na prática e na sessão; backup inclui notas; sessões fora do backup, cap 20). Gates: teste de recarregamento ✔ (persistência de sessão em nova instância do repo + E2E Playwright: responder → recarregar → cursor/nota/favorito restaurados) · teste SRS fila ✔ (queue.test.ts: vencidos, ordem, cap, vazio; 108/108 no total) · tsgo 0 ✔ · lint 0 erros/7 avisos ✔ · build ✔ · E2E fila do dia: parcial → item vencido → "Iniciar fila do dia" cria sessão ✔
+  - [ ] **Fase 8 — Medição honesta (s9-medicao):** scoring 10–90 rotulado, prontidão, /progresso com gráficos e relatório exportável. Gates: testes scoring ✔ · rótulo "estimativa" na UI ✔ · export ✔
+
+## Onda 5 — Simulado + Studie Plus (paralela)
+- [ ] **Fase 9 — Simulado (s10-simulado):** blueprint com omissões visíveis, mini-simulado, fluxo inviolável, relatório pós-prova. Gates: Playwright mini-simulado completo ✔ · sem consulta ✔ · relatório coerente ✔
+- [ ] **Fase 10 — Studie Plus (s11-studie):** matriz tipo×campo×fase, modelos A/B, controles independentes, zero prefetch, off no simulado. Gates: teste matriz ✔ · modelos A/B na UI ✔ · gate simulado ✔
+
+## Onda 6 — Rastreio + Offline (paralela)
+- [ ] **Fase 11 — Rastreabilidade (s12-rastreio):** selo de proveniência, filtro "só verificadas", canonicalId via aliases, payload enxuto, SEO dinâmico. Gates: teste filtro ✔ · teste canonicalId ✔ · teste SEO=manifesto ✔
+- [ ] **Fase 12 — Offline real (s13-offline):** pré-cache versionado, "Baixar para offline", aviso de versão, degradação honesta da IA. Gates: tipo não visitado funciona offline (build prod) ✔ · aviso de versão ✔
+
+## Onda 7 — Fechamento (agente principal)
+- [ ] **Fase 13 — A11y, segurança, E2E, lançamento:** axe limpo, teclado, 390×844, scan de dependências, observabilidade sem conteúdo sensível, E2E central completo, gates globais, relatório final. Gates: axe 0 críticas ✔ · E2E Home→…→Backup ✔ · vitest+tsgo+build+lint ✔
+
+Gates finais do projeto: total 2823 conferido · 22 tipos praticáveis · avaliadores versionados ·
+estimativas rotuladas · backup/quarentena testados · offline provado em build de produção.
+
+## Estado para o próximo remix
+Próximo remix: **Fase 8 — Medição honesta (s9-medicao)** (Onda 4). Fase 7 concluída e verificada nesta rodada: `src/lib/progress/queue.ts` (fila pura do SRS), sessões em `repository.ts` (CRUD + cap 20, fora do backup), tags de erro em `grading.ts`/`errorTagsFromDetail`, painel de notas `src/features/notas.tsx`, rota `src/routes/sessao.$sessionId.tsx` (retomável, grava tentativa + SRS + tags + notas), home com retomada + "Iniciar fila do dia", `/diagnostico` com "Por categoria de erro" e tipo mais fraco. Auditoria/E2E: Playwright confirmou recarregamento restaurando cursor/nota/favorito e a fila do dia criada a partir de item vencido (parcial de reorder). Gates finais da rodada: vitest 108/108 · tsgo 0 · lint 0 erros/7 avisos · build ✔ · E2E sessão/fila/notas/diagnóstico sem erros de página ✔.

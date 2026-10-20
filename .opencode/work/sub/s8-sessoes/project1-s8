@@ -1,0 +1,34 @@
+# project1-s8 — Sessões e diagnóstico (Fase 7)
+
+## Missão
+Tornar o treino retomável e legível: sessões que sobrevivem ao recarregamento, fila do dia real
+derivada do SRS, diagnóstico por categoria de erro e notas privadas/favoritos por questão. Serve ao
+objetivo central (project1): "nada se perde" e "todo número mostrado nasce de dados reais".
+
+## Escopo
+- `lib/progress/`: tipos de sessão/nota/categoria, chaves novas, métodos no repositório, fila pura.
+- `features/`: emissão de categorias de erro determinísticas (via `grading.ts`), painel de notas.
+- Rotas `/sessao/$sessionId` (real), fila do dia na Home, categorias no `/diagnostico`.
+
+## Fora do escopo (outros pacotes)
+- Fase 8 (s9-medicao): scoring 10–90, prontidão, gráficos, export — só consumirá o que aqui existe.
+- Fase 10 (s11-studie): tradução/explicação — não tocar em `lib/studie/`.
+- Simulado (Fase 9): reusará sessões, mas não altera este contrato sem registrar no PRD central.
+
+## Por quê
+- Falha que este recorte evita: perder o estado de uma prática em andamento (achado pendente do
+  relatório da rodada anterior — retomada ao recarregar).
+- Princípio que mais pesa: honestidade — categorias de erro só de comparação determinística com o
+  gabarito; nada de categoria inventada por IA sem sinal real.
+
+## Fronteiras
+- Recebe: `QuestionSnapshot`, `SRS_STEPS`/`onSrsReview`, `objectiveDraft`/`ObjectiveGrade`,
+  `ENGINE_BY_TYPE`, `recordAndNotify`, `loadQuestions`, `TASK_BY_ID`.
+- Entrega: `buildDueQueue`, sessões no repositório, `AttemptDraft.errorTags`,
+  `aggregates.byErrorTag`, notas no backup, rota de sessão funcional.
+
+## Dono exclusivo de
+- `src/lib/progress/queue.ts` (novo), `src/features/notas.tsx` (novo).
+- Edições: `lib/progress/types.ts`, `storage.ts`, `repository.ts`, `features/grading.ts`,
+  `features/types.ts`, `hooks/use-progress.ts`, rotas `index.tsx`, `sessao.$sessionId.tsx`,
+  `diagnostico.tsx`, `catalogo.tsx` + testes novos. Shell comum (`app-shell.tsx`) não muda.

@@ -1,0 +1,84 @@
+# prd-project1-s8 — COMO do pacote s8 (Fase 7)
+
+> Recorte do PRD central (Fase 7 + D5/D6/D10/D13/D14). Contratos abaixo vinculam a implementação.
+
+## D-s8.1 Categorias de erro (ErrorTag)
+- `type ErrorTag = "conteudo" | "fluencia" | "omissao" | "armadilha" | "palavra"` (pt-BR sem acento
+  no id; rótulo acentuado só na UI).
+- `ObjectiveGrade` ganha `detail?: { omissions?; wrong?; falsePositives?; wordsMissed? }` (números ≥ 0).
+- `objectiveDraft` deriva `errorTags` do detail: omissions>0→`omissao`; wrong>0→`conteudo`;
+  falsePositives>0→`armadilha`; wordsMissed>0→`palavra`. **Nenhum motor muda** — todos já passam
+  por `objectiveDraft`.
+- Preenchimento por função de grading (determinístico): `gradeBlankPicks` (lacunas vazias=omissions,
+  erradas=wrong) · `gradeSingleChoice` (errada=wrong 1) · `gradeMultiChoice` (marcações erradas=
+  falsePositives → armadilha; faltantes=wrong) · `gradeTextBlanks` (vazias=omissions, erradas=
+  wordsMissed) · `gradeDictation` (palavras divergentes=wordsMissed) · `gradeAcceptedAnswer`
+  (errada=wrong) · `gradeHighlightWrong` (não marcadas=wordsMissed, falsas marcações=falsePositives)
+  · `gradeOrdering` (pares errados=wrong).
+- `fluencia` NÃO é emitida nesta fase: viria da dimensão de fluência da IA (proxy). Decisão
+  registrada; campo existe para a Fase 8+/IA sem migração.
+- Persistência: `AttemptDraft.errorTags?: ErrorTag[]` → `AttemptInput.errorTags` → log (campo
+  `errorTags?`) + `aggregates.byErrorTag: Partial<Record<ErrorTag, number>>` (incremento por tag).
+- Agregado novo é retrocompatível: `readAggregates` espalha `{...EMPTY, ...value}` (campo ausente =
+  sem sinal, não zero mentiroso).
+
+## D-s8.2 Sessões retomáveis
+- `PracticeSession = { id; createdAt; updatedAt; title; kind: "fila-do-dia" | "tipo";
+  taskType?: TaskType; queue: string[]; cursor: number; answered: Record<qid, { result;
+  score: number | null; at: number }>; status: "ativa" | "concluida" }`.
+- Chave nova `KEYS.sessions = "pte-hub:v1:sessions"` (Record<id, PracticeSession>).
+- Repositório: `listSessions()` (desc por updatedAt) · `getSession(id)` · `createSession(input)`
+  (gera id `sess-<now>-<counter>`; poda: mantém 20 mais recentes) · `updateSession(id, patch)`
+  (cursor/answered/status + updatedAt) · `deleteSession(id)`.
+- **Sessões NÃO entram no backup envelope** (v1 congelado; estado de retomada é efêmero — decisão
+  s8-1). `resetAll` apaga (Object.values(KEYS) cobre a chave nova).
+- Rota `/sessao/$sessionId`: carrega sessão; para `queue[cursor]` carrega o banco do tipo e acha o
+  qid; renderiza `ENGINE_BY_TYPE[type]` com `onSubmit` que grava tentativa (recordAndNotify) E
+  avança a sessão (updateSession). Reload restaura cursor (persistido a cada envio). cursor ≥
+  queue.length → status `concluida` + resumo honesto. Botão "Encerrar sessão" → concluida.
+- Sessão inexistente → EmptyState (como hoje). Tentativa gravada duas vezes (progresso + sessão) é
+  intencional: sessão não substitui o snapshot SRS.
+
+## D-s8.3 Fila do dia real
+- `src/lib/progress/queue.ts` (puro): `buildDueQueue(snapshots, now, { limit = 30 }): string[]` —
+  somente `dueAt <= now`, ordenado por `dueAt` asc (empate: qid), cap em limit. Teste com datas.
+- Home: quando dueTotal > 0, botão "Iniciar fila do dia" cria sessão `fila-do-dia` (queue =
+  buildDueQueue) e navega para `/sessao/$id`. "Treinar algo novo" cria sessão `tipo` com até 10
+  questões não vencidas do tipo (estado honesto: primeira do banco em diante).
+
+## D-s8.4 Notas privadas e favoritos
+- `NoteEntry = { note: string; favorite: boolean; updatedAt: number }`;
+  `KEYS.notes = "pte-hub:v1:notes"` (Record<qid, NoteEntry>).
+- Repositório: `getNote(qid)` · `allNotes()` · `setNote(qid, { note?; favorite? })`.
+- **Backup**: `BackupEnvelope.notes?: Record<string, NoteEntry>` (v1 retrocompatível — parse com
+  ausente → `{}`; `knownKeys` inclui `notes`; export/import mesclar/substituir/desfazer cobrem
+  notes). Notas são dado do aluno — perdelas seria violar D5.
+- UI `src/features/notas.tsx` `NotesPanel({ qid })`: estrela de favorito + textarea salva on blur +
+  "salvo" discreto; leitura em useEffect (nunca no render — SSR).
+
+## D-s8.5 Diagnóstico por categoria
+- `/diagnostico` ganha seção "Por categoria de erro": 5 linhas com rótulos acentuados (Conteúdo,
+  Fluência, Omissão, Armadilha, Palavras) e contagem real; categoria sem sinal mostra 0 com nota
+  "sem sinal ainda" — nunca inventado. Atalho de treino fraco: tipo com mais `incorrect` ganha link
+  por categoria de maior contagem quando rastreável por tipo (por tipo: em `byErrorTagByType`
+  NÃO persistimos — atalho aponta para o tipo com mais erros no agregado geral).
+
+## Testes esperados (gates da fase)
+- `queue.test.ts`: vencidos entram, não-vencidos ficam fora, ordem por dueAt, cap, snapshot vazio.
+- `grading.test.ts` (+): errorTags de omissão/armadilha/palavra/conteúdo por função.
+- `repository.test.ts` (+): sessões (criar/avançar/poda/lista), notas (set/get/roundtrip backup),
+  `byErrorTag` incrementa, log guarda errorTags.
+- Playwright: criar fila → responder 1 item → recarregar → cursor restaurado; diagnóstico mostra
+  contagem da categoria após tentativa real; notas persistem ao recarregar.
+- Gates globais: vitest · tsgo · build · lint · Playwright (rotas tocadas).
+
+## Proibições
+- Não editar `routeTree.gen.ts`, `app-shell.tsx`, `src/lib/ai/*`, `lib/studie/*`.
+- Sem literal de contagem na UI/SEO; sem cor fora dos tokens; sem gabarito antes do envio.
+- Sem IA nesta fase; sem dependência nova.
+
+## Registro de decisões
+1. `fluencia` não emitida nesta fase (sem sinal determinístico; campo pronto para IA).
+2. Sessões fora do backup envelope v1 (efêmeras; resultado das tentativas vive nos snapshots).
+3. `armadilha` = marcação errada em múltipla escolha / falsa marcação em lst_hiw (definição
+   determinística declarada na UI).

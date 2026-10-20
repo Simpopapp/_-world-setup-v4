@@ -1,0 +1,20 @@
+# roadmap-proj1-s8 — Fases do pacote s8
+
+- [ ] **Fase s8.1 — Contratos de dados:** ErrorTag + detail em ObjectiveGrade, errorTags em
+      AttemptDraft/AttemptInput/log, byErrorTag em agregados, PracticeSession/NoteEntry, KEYS
+      sessions+notes, backup com notes. Gates: tsgo 0 ✔
+- [ ] **Fase s8.2 — Lógica pura:** queue.ts (buildDueQueue) + derivação de tags em grading.ts +
+      métodos de sessão/nota/categoria no repositório. Gates: vitest (queue + grading + repository)
+      ✔ · tsgo 0 ✔
+- [ ] **Fase s8.3 — UI de sessão:** rota /sessao/$sessionId real (retomável), botão "Iniciar fila
+      do dia" na Home, sessão por tipo no catálogo, encerrar/concluir. Gates: Playwright recarrega
+      restaura estado ✔ · tsgo 0 ✔
+- [ ] **Fase s8.4 — Notas e favoritos:** NotesPanel na prática, persistência, backup. Gates:
+      Playwright nota sobrevive a reload ✔ · vitest ✔
+- [ ] **Fase s8.5 — Diagnóstico por categoria + gates finais do pacote:** seção de categorias no
+      /diagnostico; gates globais. Gates: vitest completo ✔ · tsgo 0 ✔ · build ✔ · lint 0 erros ✔ ·
+      Playwright (/, /sessao, /diagnostico) ✔
+
+Gates finais do pacote: recarregamento restaura sessão · fila do dia reflete SRS (teste com datas)
+· diagnóstico agrega categorias reais · notas/favoritos no backup · nenhum gabarito exposto antes
+do envio.

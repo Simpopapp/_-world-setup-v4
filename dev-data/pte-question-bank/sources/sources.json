@@ -1,0 +1,4474 @@
+{
+ "versao": 1,
+ "total": 91,
+ "aprovadas": 47,
+ "reprovadas": 44,
+ "fontes": [
+  {
+   "id": "pearson",
+   "nome": "Pearson — Example Speaking Questions 2025 (oficial)",
+   "url": "https://www.pearsonpte.com",
+   "dominio": "pearsonpte.com",
+   "grupoOperador": "pearson",
+   "tipos": [
+    "rts",
+    "sgd"
+   ],
+   "volumeAparente": "30 itens por tipo (texto + transcrição no PDF oficial)",
+   "status": "aprovada",
+   "nivel": "verificada",
+   "confianca": 95,
+   "licenca": "© Pearson — material oficial; uso local e pessoal, sem redistribuição",
+   "evidencia": {
+    "positivos": [
+     "ZIP oficial da Pearson (página partners-and-teachers), 200 OK sem login; PDF com pergunta + transcrição por item; amostra manual de 6 itens; formato oficial confirmado"
+    ],
+    "negativos": [
+     "Áudio oficial não incluído no banco (app usa TTS). Sample answers oficiais em áudio, não integradas."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 52,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "verificada",
+     "para": "verificada",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 52
+  },
+  {
+   "id": "owid",
+   "nome": "Our World in Data — gráficos (CC BY 4.0)",
+   "url": "https://ourworldindata.org/grapher",
+   "dominio": "ourworldindata.org",
+   "grupoOperador": "owid",
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "0 gráficos com dados abertos",
+   "status": "aprovada",
+   "nivel": "verificada",
+   "confianca": 90,
+   "licenca": "CC BY 4.0 — atribuição registrada por item",
+   "evidencia": {
+    "positivos": [
+     "API pública de gráficos (PNG, CSV, metadata); licença CC BY 4.0 confirmada na documentação oficial; facts calculados do próprio CSV; amostra manual de 5"
+    ],
+    "negativos": [
+     "Erros/pendências: life-expectancy: metadata inválida | life-expectancy-vs-gdp-per-capita: metadata inválida | gdp-per-capita-worldbank: metadata inválida | child-mortality: metadata inválida | population: metadata inválida | population-by-age-group: metadata inválida | co-emissions-per-capita: metadata inválida | maternal-mortality: metadata inválida | hospital-beds-per-1000-people: metadata inválida | literacy-rate-adults: metadata inválida | mean-years-of-schooling-long-run: metadata inválida | access-to-electricity-vs-gdp-per-capita: metadata inválida | trade-as-share-of-gdp: metadata inválida | share-of-women-in-parliament: metadata inválida | air-pollution-vs-gdp-per-capita: metadata inválida | pm25-air-pollution: metadata inválida | share-of-population-in-extreme-poverty: metadata inválida | share-of-population-urban: metadata inválida | fixed-telephone-subscriptions-per-100-people: metadata inválida | renewable-energy-consumption: metadata inválida"
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 20,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "verificada",
+     "para": "verificada",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 20
+  },
+  {
+   "id": "goarno",
+   "nome": "Arno — PTE Essential Questions (blog)",
+   "url": "https://goarno.io/blog",
+   "dominio": "goarno.io",
+   "grupoOperador": "goarno",
+   "tipos": [
+    "lst_fib",
+    "lst_hcs",
+    "lst_hiw",
+    "lst_mcq_multi",
+    "lst_mcq_single",
+    "lst_smw",
+    "read_fib_drag",
+    "read_fib_dropdown",
+    "read_mcq_multi",
+    "read_mcq_single",
+    "repeat_sentence",
+    "sst",
+    "swt",
+    "wfd"
+   ],
+   "volumeAparente": "50 itens por página (14 páginas, ~700 itens)",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 70,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal, sem redistribuição",
+   "evidencia": {
+    "positivos": [
+     "Páginas públicas 200 OK sem login/captcha (cache 2026-10-17); gabarito e transcrições no texto; robots.txt permite /blog; formato fiel (passagem 40-400 palavras, 3-5 opções, respostas ∈ opções verificado na extração); amostra manual de 3 páginas + checagem estrutural de todas"
+    ],
+    "negativos": [
+     "Páginas de leitura-single e fala/escrita restantes avaliadas por tipo; corroboração cruzada pendente (recalcula a cada fonte nova). Páginas sem linha de pergunta (multi/listening MCQ) → item marcado para revisão."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); re-avaliação de tier na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 761,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 676
+  },
+  {
+   "id": "goarno-reorder",
+   "nome": "Arno — 50 Re-order Paragraphs examples",
+   "url": "https://goarno.io/blog/50-re-order-paragraphs-examples-pte/",
+   "dominio": "goarno.io",
+   "grupoOperador": "goarno",
+   "tipos": [
+    "reorder_paragraphs"
+   ],
+   "volumeAparente": "exemplos com gabarito e texto na ordem correta",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 64,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); gabarito explícito; amostra manual de 6 itens"
+    ],
+    "negativos": [
+     "Suspeita de geração sintética alta (scout 2026-10-17) — itens rotulados comunitaria; texto de 4–6 parágrafos verificado na extração."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 761,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 35
+  },
+  {
+   "id": "stormedugo",
+   "nome": "Storm EduGo — Read Aloud passages 2025",
+   "url": "https://www.stormedugo.com/blog/most-important-read-aloud-passages-for-pte-academic",
+   "dominio": "stormedugo.com",
+   "grupoOperador": "stormedugo",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "50 passagens",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 68,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); 50 itens numerados com texto completo; amostra manual de 12 itens; formato fiel (25–120 palavras em maioria)",
+     "Página pública 200 OK sem login (cache 2026-10-17); 50 itens numerados com texto completo; amostra manual de 12 itens; formato fiel (25–120 palavras em maioria)",
+     "Página pública 200 OK sem login (cache 2026-10-17); 50 itens numerados com texto completo; amostra manual de 12 itens; formato fiel (25–120 palavras em maioria)",
+     "Página pública 200 OK sem login (cache 2026-10-17); 50 itens numerados com texto completo; amostra manual de 12 itens; formato fiel (25–120 palavras em maioria)"
+    ],
+    "negativos": [
+     "Site chama de 'repeated' sem prova; nenhum cruzamento ainda. Alguns itens fora da faixa 25–120 vão para revisão.",
+     "Site chama de 'repeated' sem prova; nenhum cruzamento ainda. Alguns itens fora da faixa 25–120 vão para revisão.",
+     "Site chama de 'repeated' sem prova; nenhum cruzamento ainda. Alguns itens fora da faixa 25–120 vão para revisão.",
+     "Site chama de 'repeated' sem prova; nenhum cruzamento ainda. Alguns itens fora da faixa 25–120 vão para revisão."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 294,
+    "corroborated": 95,
+    "pct": 32.3,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 95/294 itens (32.3%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 50
+  },
+  {
+   "id": "band9",
+   "nome": "Band9PTE — 43 essay topics com Band 9 samples",
+   "url": "https://band9pte.com.au/pte-essay-topics.html",
+   "dominio": "band9pte.com.au",
+   "grupoOperador": "band9",
+   "tipos": [
+    "write_essay"
+   ],
+   "volumeAparente": "43 tópicos",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 66,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); cada tópico com redação-modelo completa; amostra manual de 3 redações; formato fiel (prompt 15–120 palavras)",
+     "Página pública 200 OK sem login (cache 2026-10-17); cada tópico com redação-modelo completa; amostra manual de 3 redações; formato fiel (prompt 15–120 palavras)",
+     "Página pública 200 OK sem login (cache 2026-10-17); cada tópico com redação-modelo completa; amostra manual de 3 redações; formato fiel (prompt 15–120 palavras)",
+     "Página pública 200 OK sem login (cache 2026-10-17); cada tópico com redação-modelo completa; amostra manual de 3 redações; formato fiel (prompt 15–120 palavras)"
+    ],
+    "negativos": [
+     "Site promove IA de correção; tópicos alegam 'real exam reports' sem prova independente.",
+     "Site promove IA de correção; tópicos alegam 'real exam reports' sem prova independente.",
+     "Site promove IA de correção; tópicos alegam 'real exam reports' sem prova independente.",
+     "Site promove IA de correção; tópicos alegam 'real exam reports' sem prova independente."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 43,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 43
+  },
+  {
+   "id": "langacad",
+   "nome": "Language Academy — 50 essay topics",
+   "url": "https://www.languageacademy.com.au/blog/50-most-repeated-questions-with-sample-answers",
+   "dominio": "languageacademy.com.au",
+   "grupoOperador": "langacad",
+   "tipos": [
+    "write_essay"
+   ],
+   "volumeAparente": "50 tópicos (5 com redação-modelo)",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 62,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); tópicos por categoria; amostra manual de 10; só tópicos completos integrados",
+     "Página pública 200 OK sem login (cache 2026-10-17); tópicos por categoria; amostra manual de 10; só tópicos completos integrados",
+     "Página pública 200 OK sem login (cache 2026-10-17); tópicos por categoria; amostra manual de 10; só tópicos completos integrados",
+     "Página pública 200 OK sem login (cache 2026-10-17); tópicos por categoria; amostra manual de 10; só tópicos completos integrados"
+    ],
+    "negativos": [
+     "Redações-modelo só para 5 tópicos (vinculados por nome, não integrados automaticamente).",
+     "Redações-modelo só para 5 tópicos (vinculados por nome, não integrados automaticamente).",
+     "Redações-modelo só para 5 tópicos (vinculados por nome, não integrados automaticamente).",
+     "Redações-modelo só para 5 tópicos (vinculados por nome, não integrados automaticamente)."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 36,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 36
+  },
+  {
+   "id": "edknot",
+   "nome": "EdKnot — Answer Short Question (20 itens)",
+   "url": "https://www.edknot.com/pte-practice/answer-short-question",
+   "dominio": "edknot.com",
+   "grupoOperador": "edknot",
+   "tipos": [
+    "answer_short"
+   ],
+   "volumeAparente": "20 itens",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 65,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); respostas no texto; amostra manual de 5; itens curtos e coerentes",
+     "Página pública 200 OK sem login (cache 2026-10-17); respostas no texto; amostra manual de 5; itens curtos e coerentes",
+     "Página pública 200 OK sem login (cache 2026-10-17); respostas no texto; amostra manual de 5; itens curtos e coerentes",
+     "Página pública 200 OK sem login (cache 2026-10-17); respostas no texto; amostra manual de 5; itens curtos e coerentes"
+    ],
+    "negativos": [
+     "Banco pequeno (mín. 80) — selo 'banco pequeno'.",
+     "Banco pequeno (mín. 80) — selo 'banco pequeno'.",
+     "Banco pequeno (mín. 80) — selo 'banco pequeno'.",
+     "Banco pequeno (mín. 80) — selo 'banco pequeno'."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 54,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 20
+  },
+  {
+   "id": "edknot-reorder",
+   "nome": "EdKnot — Re-order Paragraphs (12 itens)",
+   "url": "https://www.edknot.com/pte-practice/reorder-paragraph",
+   "dominio": "edknot.com",
+   "grupoOperador": "edknot",
+   "tipos": [
+    "reorder_paragraphs"
+   ],
+   "volumeAparente": "12 itens com ordem correta visível",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 65,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); gabarito explícito; amostra manual de 2 itens"
+    ],
+    "negativos": [],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); decisão registrada na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 54,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 10
+  },
+  {
+   "id": "edknot-retell",
+   "nome": "EdKnot — Retell Lecture (12 itens)",
+   "url": "https://www.edknot.com/pte-practice/retell-lecture",
+   "dominio": "edknot.com",
+   "grupoOperador": "edknot",
+   "tipos": [
+    "retell_lecture"
+   ],
+   "volumeAparente": "12 itens com transcrição + retelling-modelo",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 65,
+   "licenca": "sem licença de reuso declarada; uso local e pessoal",
+   "evidencia": {
+    "positivos": [
+     "Página pública 200 OK sem login (cache 2026-10-17); amostra manual de 4 itens; transcrições com pequenos artefatos de digitação registrados"
+    ],
+    "negativos": [
+     "Banco pequeno (mín. 40) — selo 'banco pequeno'."
+    ],
+    "trechos": []
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gate herdado do coleta inicial (fonte aprovada em sources.json); re-avaliação de tier na reavaliação global"
+   },
+   "corroboracao": {
+    "items": 54,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-17",
+   "itensNoBanco": 12
+  },
+  {
+   "id": "cand-11",
+   "nome": null,
+   "url": "https://pteking.com/listening",
+   "dominio": "pteking.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_hcs",
+    "lst_hiw",
+    "lst_mcq_multi",
+    "lst_mcq_single",
+    "lst_smw"
+   ],
+   "volumeAparente": "Índice anuncia HCS 58, HIW 320, SMW 88, single 87, multi 69; não são contagens de itens/gabaritos lidos.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 alegado pelo índice: Real and repeated questions; sem confirmação independente."
+    ],
+    "negativos": [
+     "Índice sem gabaritos visíveis; volume apenas anunciado; curadoria humana C3 não demonstrada.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "Real and repeated questions",
+     "Your progress: 0/58",
+     "Your progress: 0/320",
+     "Your progress: 0/88",
+     "Your progress: 0/87",
+     "Your progress: 0/69"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "índice sem gabaritos visíveis; volume apenas anunciado; nada para amostrar"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-12",
+   "nome": null,
+   "url": "https://realpte.com/practice/highlight-correct-summary",
+   "dominio": "realpte.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_hcs"
+   ],
+   "volumeAparente": "43 anunciados; lista de IDs visível; 0 gabaritos lidos.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 indiciário: contador de relatos I sat this associado a IDs."
+    ],
+    "negativos": [
+     "Lista sem texto de questão e sem gabarito no retorno; C3 não demonstrado.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "43 Highlight Correct Summary questions in the RealPTE bank; 43 of them open directly in the practice screen.",
+     "107 students marked \"I sat this\""
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "HTTP 403 ao acesso direto (bloqueio de agente) após robots permitido; sem contorno"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-13",
+   "nome": null,
+   "url": "https://realpte.com/practice/listening-multiple-choice-single",
+   "dominio": "realpte.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_mcq_single"
+   ],
+   "volumeAparente": "49 anunciados; enunciados truncados visíveis; 0 gabaritos lidos.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 indiciário: relatos I sat this associados às questões."
+    ],
+    "negativos": [
+     "Lista sem gabarito; autenticação do relato não demonstrada.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "49 Listening: Multiple Choice, Single Answer questions in the RealPTE bank; 49 of them open directly in the practice screen.",
+     "What is lecture mainly about?"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "mesmo operador das URLs realpte reprovadas; 403"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-14",
+   "nome": null,
+   "url": "https://www.ptebank.com/product/ptematerial/",
+   "dominio": "ptebank.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_hcs",
+    "lst_hiw",
+    "lst_mcq_multi",
+    "lst_mcq_single",
+    "lst_smw"
+   ],
+   "volumeAparente": "Anuncia single 39, multi 46, outros quatro tipos agrupados em 146; 0 itens visíveis.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 alegado: equipe diz coletar questões reais e verificar autenticidade."
+    ],
+    "negativos": [
+     "REPROVA: pagamento de $79; entrega via e-mail/conta; nenhum gabarito público lido.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "PTE Bank team collected real exam questions from many different sources.",
+     "The question files will be delivered via email / online account immediately after purchase."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "pagamento $79; entrega via e-mail/conta"
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-15",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/mcq-choose-single-answer/pte-listening-multiple-choice-single-answer-practice-questions/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_mcq_single"
+   ],
+   "volumeAparente": "Questão 13 com transcrição e resposta 2 lidas; início da questão 14 visível.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: material datado de 8 dezembro 2017, áudio, transcrição e resposta explícita; revisão humana não confirmada."
+    ],
+    "negativos": [
+     "Sem C2 específico: prática, não recall comprovado; licença não demonstrada.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "What is the focus of this year’s expedition energy concept demonstration?",
+     "#Right Answer: 2.",
+     "To learn about the technology that can help make the company landing team better"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "volume visível insuficiente (≤2 itens nesta página); amostra mínima 10 impossível — re-avaliar com paginação na coleta 2"
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-16",
+   "nome": null,
+   "url": "https://www.radiusenglish.com/pte-listening-select-missing-word/",
+   "dominio": "radiusenglish.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_smw"
+   ],
+   "volumeAparente": "1 item sobre income inequality com transcrição; sem alternativas/gabarito no retorno.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Transcrição literal pública de item SMW; útil para checagem posterior, sem C2 confirmado."
+    ],
+    "negativos": [
+     "REPROVA enquanto sem gabarito; C3 completo não demonstrado.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "You will hear a recording about income inequality.",
+     "In fact, in our work, you can remove those countries at the extreme, and you’ve still got a significant correlation."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "1 item sem alternativas/gabarito; volume insuficiente para amostra"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-17",
+   "nome": null,
+   "url": "https://alfapte.com/pte-listening-practice/highlight-incorrect-words/sample-questions",
+   "dominio": "alfapte.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_hiw"
+   ],
+   "volumeAparente": "9 cabeçalhos Sample Question visíveis; nenhum par incorreto/correto lido.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Site de preparo com exemplos numerados e instruções; insuficiente para C3 completo."
+    ],
+    "negativos": [
+     "REPROVA: gabarito/transcrição não aparecem no texto retornado; não afirmar se JS ou login é a causa.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "Sample Question 9:",
+     "Note that this task has negative marking, so selecting the correct word will reduce your marks."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gabarito/transcrição não visíveis no retorno; não demonstrado sem JS/login"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-18",
+   "nome": null,
+   "url": "https://leapscholar.com/exams/pte/practice-test/listening/highlight-correct-summary",
+   "dominio": "leapscholar.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_hcs"
+   ],
+   "volumeAparente": "Anuncia 15 gravações; opções do item 1 Urban Heat Islands lidas.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: página de preparo anuncia respostas e explicações."
+    ],
+    "negativos": [
+     "Não comprova ocorrência em prova; gabarito do item 1 não apareceu no retorno lido.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "Practice with 15 real recordings below, answers and explanations included.",
+     "Attempt each one, then open the sample answer to compare."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gabarito do item não apareceu no retorno; sem C2; amostra não viável"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-19",
+   "nome": null,
+   "url": "https://www.aliensbrain.com/quiz/17442/pte-listening-select-missing-word-2",
+   "dominio": "aliensbrain.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_smw"
+   ],
+   "volumeAparente": "4 itens com alternativas; explicação textual do item 1 lida.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: exemplo com alternativas e explicação contextual; revisão não confirmada."
+    ],
+    "negativos": [
+     "Não há letra do gabarito explícita no retorno; sem C2 de prova real.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "You will hear a recording about solar energy.",
+     "A. location",
+     "B. tilt",
+     "C. distance",
+     "D. position",
+     "E. harness"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "4 itens, letra do gabarito não explícita no retorno; volume insuficiente"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-20",
+   "nome": null,
+   "url": "https://bandladder.com/pte-practice/listening-multiple-choice-multiple-answers",
+   "dominio": "bandladder.com",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_mcq_multi"
+   ],
+   "volumeAparente": "Anuncia 70+ sets/100+ questions; 1 título de amostra visível, sem gabarito lido.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página oferece prática gratuita e explicações; C3 apenas parcial."
+    ],
+    "negativos": [
+     "Gravações descritas como originais, não recall; gabarito não visível no trecho lido; não confundir material autoral com questão real.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "PTE listening multiple choice multiple answer practice with original recordings in four English accents.",
+     "Free, no login",
+     "Traditional Violin Varnish and Ground Layers"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "gravações declaradas originais (não recall); gabarito não visível; volume não demonstrado"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-21",
+   "nome": null,
+   "url": "https://online.britfort.com/wp-content/uploads/Part_3_Listening_PTEA_Practice_Test.pdf",
+   "dominio": "online.britfort.com",
+   "grupoOperador": "pearson",
+   "tipos": [
+    "lst_hcs",
+    "lst_hiw",
+    "lst_mcq_multi",
+    "lst_mcq_single",
+    "lst_smw"
+   ],
+   "volumeAparente": "PDF anuncia itens pp. 2–17 e gabaritos/transcrições pp. 18–28; não contados individualmente.",
+   "status": "aprovada",
+   "nivel": "verificada",
+   "confianca": 85,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C4 indiciário: documento se identifica como Pearson Education Ltd 2011; hospedagem terceira não prova licença."
+    ],
+    "negativos": [
+     "REPROVA por copyright restritivo sem licença de redistribuição demonstrada; áudios externos ao PDF; gabaritos não lidos integralmente.",
+     "Evidência limitada ao texto retornado por websearch; página integral, robots.txt e licença de reuso não verificados; não aprovada para ingestão.",
+     "C1 não demonstrado; não atribuir independência editorial entre domínios sem checagem."
+    ],
+    "trechos": [
+     "PTE Academic Offline Practice Test",
+     "The practice items are on pages 2-17 and the Answer Key and Transcripts on pages 18-28.",
+     "No part of this publication may be reproduced without the prior written permission of Pearson Education Ltd."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 4,
+    "defects": 0,
+    "notes": "2 SST + 2 lst_fib inspecionados; lst_fib sem template recuperável"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "© Pearson Education 2011 sem licença de redistribuição"
+   },
+   "corroboracao": {
+    "items": 2,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "verificada",
+     "para": "verificada",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 2
+  },
+  {
+   "id": "cand-22",
+   "nome": null,
+   "url": "https://ptehelper.com.au/tu-de-thi-pte-200-cau-answer-short-question-asq/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "answer_short"
+   ],
+   "volumeAparente": "Página anuncia 200; lista numerada visível, incluindo 365–415; não assumido que todos os 200 sejam únicos.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: equipe afirma ter extraído de provas reais (đề thi thật); alegação da fonte, não confirmação Pearson.",
+     "Questões e respostas abertas no HTML."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "C1 não demonstrado por texto idêntico em domínios com independência confirmada."
+    ],
+    "trechos": [
+     "Helper Team lấy từ đề thi thật",
+     "365 What does ice become when you heat it? Water",
+     "367 What is the antonym of predecessor? Successor"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 190
+  },
+  {
+   "id": "cand-23",
+   "nome": null,
+   "url": "https://www.gurully.com/blog/pte-short-answer-questions-list/",
+   "dominio": "gurully.com",
+   "grupoOperador": "gurully",
+   "tipos": [
+    "answer_short"
+   ],
+   "volumeAparente": "66 entradas numeradas observadas, Question 1–66, com respostas e links MP3.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 67,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: autoria Vidhi e revisão Brijesh Dhanani identificadas; perguntas, respostas e dicas abertas."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "C2 não confirmado na página atual; não confundir título most repeated do PDF indexado com evidência desta página."
+    ],
+    "trechos": [
+     "Which country is both a continent and a country?",
+     "Australia",
+     "Reviewed by - Brijesh Dhanani"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 50
+  },
+  {
+   "id": "cand-24",
+   "nome": null,
+   "url": "https://sumlingo.com/blog/most-100-repeated-pte-answer-short-questions/",
+   "dominio": "sumlingo.com",
+   "grupoOperador": "sumlingo",
+   "tipos": [
+    "answer_short"
+   ],
+   "volumeAparente": "100 questões anunciadas; lista extensa com perguntas e respostas visíveis no HTML.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 68,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: texto atribui os itens a relatos recentes de candidatos; data visível June 2, 2025."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "Sem identificação de candidatos, datas das provas ou verificação independente; revisão humana não demonstrada."
+    ],
+    "trechos": [
+     "These have been frequently reported by PTE candidates in recent tests.",
+     "Question: What do we call a doctor who performs operations?",
+     "Answer: Surgeon"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 98,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 98
+  },
+  {
+   "id": "cand-25",
+   "nome": null,
+   "url": "http://www.ptesprinters.com/exam-recall/50-answer-short-questions-prediction-list-1-dec-2019/",
+   "dominio": "ptesprinters.com",
+   "grupoOperador": "ptesprinters",
+   "tipos": [
+    "answer_short"
+   ],
+   "volumeAparente": "50 itens anunciados; lista numerada aberta com gabaritos junto às perguntas.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 62,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 parcial: página em exam-recall, título Prediction List-1: Dec-2019; chamada Recent Exam Memories."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "Lista antiga/preditiva, sem confirmação de aplicação de cada item."
+    ],
+    "trechos": [
+     "Check out \"Exam Recall\" section for Recent Exam Memories",
+     "3.How many days are in a leap year? – – 366"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 20,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 20
+  },
+  {
+   "id": "cand-26",
+   "nome": null,
+   "url": "https://www.gurully.com/exam/pte/pte-summarize-group-discussion-sample",
+   "dominio": "gurully.com",
+   "grupoOperador": "gurully",
+   "tipos": [
+    "sgd"
+   ],
+   "volumeAparente": "11 entradas Question 1–11 observadas; respostas-modelo em texto e áudio; transcrições integrais dos estímulos não verificadas.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 67,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: plataforma de preparação com respostas-modelo abertas e instruções de comparação."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "C1/C2 não demonstrados para os itens; exemplos de prática não comprovam recall real."
+    ],
+    "trechos": [
+     "Check the sample answer.",
+     "The discussion focuses on improving the effectiveness of recycling programs at the university and how institutions can promote more sustainable waste practices."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-27",
+   "nome": null,
+   "url": "https://alfapte.com/pte-speaking-practice/summarize-group-discussion/sample-questions",
+   "dominio": "alfapte.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sgd"
+   ],
+   "volumeAparente": "10 Sample Que observadas com scripts; nenhum resumo-modelo textual identificado.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Scripts de diálogos abertos; identificação Academic & UKVI."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "REPROVA: scripts são estímulos, não gabaritos; nenhum resumo-modelo observado.",
+     "C1/C2/C3 completo não demonstrados; candidata negativa, não fonte aprovada."
+    ],
+    "trechos": [
+     "Sample Que 10:",
+     "Man1: Did you guys hear about the student club fair next week?"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "só estímulos (scripts), sem resumo-modelo/gabarito observado"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-28",
+   "nome": null,
+   "url": "https://www.gurully.com/pte-speaking-practice/respond-to-situation",
+   "dominio": "gurully.com",
+   "grupoOperador": "gurully",
+   "tipos": [
+    "rts"
+   ],
+   "volumeAparente": "5 cenários visíveis; respostas textuais sob Transcript, incluindo poster e edição do trabalho.",
+   "status": "aprovada-condicional",
+   "nivel": "comunitaria",
+   "confianca": 64,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: prática de provedor de preparação, cenários e respostas abertas."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "Mistura Academic e Core; instrução inicial usa 20 segundos (Core), inadequada ao Academic de 10 segundos.",
+     "C1/C2 de ocorrência em exame não demonstrados."
+    ],
+    "trechos": [
+     "You will have 20 seconds to think about your answer.",
+     "Hi, team! I'm glad to design the poster for the academic conference,",
+     "Could you share everything with me by Wednesday so I have enough time to plan the layout and make it look clear and engaging?"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 4
+  },
+  {
+   "id": "cand-29",
+   "nome": null,
+   "url": "https://www.gurully.com/blog/pte-academic-respond-to-a-situation/",
+   "dominio": "gurully.com",
+   "grupoOperador": null,
+   "tipos": [
+    "rts"
+   ],
+   "volumeAparente": "Ao menos 1 exemplo aberto com áudio RTS_A_0031.mp3 e resposta-modelo textual.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C3 parcial: autor/revisor Brijesh Dhanani identificado; diferencia Academic e traz resposta-modelo."
+    ],
+    "negativos": [
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "C2 não demonstrado para o exemplo; trata-se de amostra de preparação."
+    ],
+    "trechos": [
+     "You will have 10 seconds to prepare and 40 seconds to speak",
+     "Hi Dr. Singh, thank you so much for inviting me to contribute a section to the collaborative research paper."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "duplicata operacional da URL gurully rts já aprovada (cand-28); 1 exemplo só — mantida a página principal"
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-30",
+   "nome": null,
+   "url": "https://leapscholar.com/exams/pte/practice-test/reading/multiple-choice-multiple-answers",
+   "dominio": "leapscholar.com",
+   "grupoOperador": null,
+   "tipos": [
+    "read_mcq_multi"
+   ],
+   "volumeAparente": "Extração do buscador anuncia 15; primeiro item e chave B,C,D,E efetivamente lidos; volume total não conferido diretamente.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 fraco: página afirma 15 real questions; não oferece data de prova no trecho lido.",
+     "Passagem sobre sharing economy, opções e chave visíveis na extração do buscador."
+    ],
+    "negativos": [
+     "REPROVA: robots.txt retornou HTTP 403; acesso direto encerrado, sem contorno.",
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate.",
+     "Sem corroboração independente nem revisão humana verificada."
+    ],
+    "trechos": [
+     "Practice with 15 real questions below, answers and explanations included.",
+     "Which of the following statements can be inferred from the passage?",
+     "B,C,D,E"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "robots.txt 403 na extração do buscador (bloqueio); sem gabarito completo lido"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-31",
+   "nome": null,
+   "url": "https://realpte.com/practice/reading-multiple-choice-multiple",
+   "dominio": "realpte.com",
+   "grupoOperador": null,
+   "tipos": [
+    "read_mcq_multi"
+   ],
+   "volumeAparente": "41 anunciadas; índice lido via buscador; nenhum gabarito de item observado.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2 parcial: índice atribui contagens I sat this a alunos; autodeclaração não verificada."
+    ],
+    "negativos": [
+     "REPROVA: página HTTP 403 após robots permitido; sem nova tentativa.",
+     "REPROVA: somente títulos/contagens, sem gabarito lido.",
+     "Licença de reutilização não estabelecida; leitura pública não autoriza copiar o banco; pendente/reprova no gate."
+    ],
+    "trechos": [
+     "41 Reading: Multiple Choice, Multiple Answers questions in the RealPTE bank;",
+     "130 students marked \"I sat this\""
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "HTTP 403; apenas títulos/contagens anunciadas"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-32",
+   "nome": null,
+   "url": "https://www.usgs.gov/media/images/water-cycle-png",
+   "dominio": "usgs.gov",
+   "grupoOperador": "usgs",
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 diagrama de processo (2022), imagem PNG e descrição textual extensa disponíveis.",
+   "status": "aprovada",
+   "nivel": "verificada",
+   "confianca": 88,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: domínio público, declarada em Sources/Usage: Public Domain.",
+     "Fonte científica governamental com facts descritivos: armazenamento, fluxos e interferência humana; autoria USGS VizLab.",
+     "Leitura direta HTTP 200 após robots permitido; imagem própria e descrição, não apenas template."
+    ],
+    "negativos": [
+     "Não é questão real PTE comprovada: nenhum C1–C4 de autenticidade PTE estabelecido; candidata suplementar para adaptação, não recall."
+    ],
+    "trechos": [
+     "This diagram, released in 2022, depicts the global water cycle.",
+     "Ninety-six percent of all water is saline and stored in oceans.",
+     "Water moves between the atmosphere and the Earth’s surface through evaporation, evapotranspiration, and precipitation.",
+     "Public Domain."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 0,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "verificada",
+     "para": "verificada",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-33",
+   "nome": null,
+   "url": "https://www.usgs.gov/media/images/natural-water-cycle-jpg",
+   "dominio": "usgs.gov",
+   "grupoOperador": "usgs",
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 diagrama em JPG; PDF também indicado, sem contá-lo como outro item.",
+   "status": "aprovada",
+   "nivel": "verificada",
+   "confianca": 88,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: domínio público (Sources/Usage: Public Domain.).",
+     "Facts científicos e créditos: Howard Perlman, USGS and John Evans, USGS.",
+     "Leitura direta HTTP 200; conjunto imagem + explicação acessível sem conta."
+    ],
+    "negativos": [
+     "Sem evidência de questão real PTE; C1–C4 não estabelecidos.",
+     "Mesmo tema da versão 2022; não contar como dois recalls distintos."
+    ],
+    "trechos": [
+     "Water is always changing states between liquid, vapor, and ice,",
+     "Public Domain.",
+     "Howard Perlman, USGS and John Evans, USGS"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": null
+   },
+   "corroboracao": {
+    "items": 0,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "verificada",
+     "para": "verificada",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-34",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:Half-life_example_graph.jpg",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 gráfico de linha, 1006 × 564 pixels segundo metadados indexados.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: CC0 1.0 Universal Public Domain Dedication, declarada na seção Licensing.",
+     "Facts: gráfico de amostra radioativa com meia-vida de dois minutos; autor Pradana Aumars."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso."
+    ],
+    "trechos": [
+     "Line graph of radioactive sample with a half-life of 2 minutes",
+     "This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-35",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:World_human_population_density_map.png",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 mapa mundial, 8639 × 3431 pixels segundo metadados indexados.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: CC0 1.0 Universal Public Domain Dedication.",
+     "Facts: densidade populacional global em 2005; autoria daysleeperrr, origem Reddit declarada."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso.",
+     "Sem descrição das regiões de maior/menor densidade no texto lido; gabarito insuficiente."
+    ],
+    "trechos": [
+     "Map showing human population density across the globe in 2005.",
+     "This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-36",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:1988-_Deforestation_rates_in_Brazil_-_Terra_Brasilis_(party_colors).svg",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 gráfico de barras SVG, 1250 × 675 pixels.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: CC BY 4.0; atribuir RCraig09, linkar licença e indicar alterações.",
+     "Facts: desmatamento no Brasil desde 1988 e presidentes; fonte de dados TerraBrasilis explicitada."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso.",
+     "Dados numéricos não lidos; descrição temática não equivale a gabarito PTE completo."
+    ],
+    "trechos": [
+     "Vertical bar chart showing deforestation rates in Brazil beginning in 1988, in conjunction with Brazil's presidents during respective time periods.",
+     "This file is licensed under the Creative Commons Attribution 4.0 International license."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-37",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:Temperature_Bar_Chart_Europe-United_Kingdom--1884-2020--2021-07-13.png",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 gráfico, 3780 × 2126 pixels, Reino Unido 1884–2020.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: CC BY 4.0, Ed Hawkins, University of Reading.",
+     "Facts editoriais: cada faixa representa temperatura média anual; dados UK Met Office."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso."
+    ],
+    "trechos": [
+     "Temperature bar chart for United Kingdom",
+     "Each stripe represents the temperature averaged over a year.",
+     "This file is licensed under the Creative Commons Attribution 4.0 International license."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-38",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:Water_cycle_flowchart.png",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 fluxograma, 1154 × 600 pixels.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: CC0 1.0 Universal Public Domain Dedication; autor Entropyrider.",
+     "Diagrama próprio, e não template textual."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso.",
+     "Legenda genérica: etapas individuais não transcritas no resultado; gabarito ainda ausente."
+    ],
+    "trechos": [
+     "This flowchart details all steps in the hydrological cycle.",
+     "This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-39",
+   "nome": null,
+   "url": "https://commons.wikimedia.org/wiki/File:CO2_emission_pie_chart.svg",
+   "dominio": "commons.wikimedia.org",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "1 gráfico de setores SVG; versões 2015/2023 não contadas como itens adicionais.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Licença da imagem: domínio público por geometria simples, explicitado na ficha.",
+     "Facts: emissões globais por país; atualização versão 10 remete ao EDGAR 2024."
+    ],
+    "negativos": [
+     "Leitura somente do texto indexado retornado pela busca; robots.txt respondeu 403 no acesso direto, que não foi contornado.",
+     "Sem evidência de questão real PTE (C1–C4 não estabelecidos); fonte suplementar de imagem/facts, não aprovação para ingestão.",
+     "Imagem não inspecionada visualmente; conferir rótulos e preparar gabarito humano antes de uso.",
+     "Inconsistência entre caption 2023 e Summary 2015; fixar revisão/data antes de formular resposta."
+    ],
+    "trechos": [
+     "Global CO2 gas emissions in the year 2023 by country",
+     "This image of simple geometry is ineligible for copyright and therefore in the public domain,"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "acesso 403 ao agente (sinal negativo ); imagem não validada em amostra; nunca integrada ao banco"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-40",
+   "nome": null,
+   "url": "https://www.ptebank.com/recently-asked-pte-describe-images/",
+   "dominio": "ptebank.com",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "3 itens com imagens HTML e respostas abertas; não inclui banco pago.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: menção explícita de repetição em prova, com janela temporal: recent PTE exams (October – November 2019).",
+     "Respostas completas legíveis sem login, HTTP 200; imagens presentes no HTML.",
+     "Licença da imagem: NÃO há licença aberta comprovada; registro negativo para triagem, NÃO reutilizar."
+    ],
+    "negativos": [
+     "REPROVADA para reuso: copyright sem licença aberta; rodapé All Rights Reserved.",
+     "C2 é alegação do próprio site; sem corroboração independente C1 nem chancela Pearson C4.",
+     "Banco comercial adicional não acessado; não extrapolar volume para produto pago."
+    ],
+    "trechos": [
+     "recent PTE exams (October – November 2019)",
+     "The flow chart represents the life cycle of a tomato plant.",
+     "COPYRIGHT (©) 2025 PTEBANK. All Rights Reserved."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "copyright 'All Rights Reserved' sem licença aberta para imagens"
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-41",
+   "nome": null,
+   "url": "https://www.ptebank.com/recently-asked-pte-describe-images-2021/",
+   "dominio": "ptebank.com",
+   "grupoOperador": null,
+   "tipos": [
+    "describe_image"
+   ],
+   "volumeAparente": "5 itens com imagens HTML e respostas abertas; não inclui banco pago.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: menção explícita de repetição em prova, com janela temporal: recent PTE exams (January – June 2021).",
+     "Respostas completas legíveis sem login, HTTP 200; imagens presentes no HTML.",
+     "Licença da imagem: NÃO há licença aberta comprovada; registro negativo para triagem, NÃO reutilizar."
+    ],
+    "negativos": [
+     "REPROVADA para reuso: copyright sem licença aberta; rodapé All Rights Reserved.",
+     "C2 é alegação do próprio site; sem corroboração independente C1 nem chancela Pearson C4.",
+     "Banco comercial adicional não acessado; não extrapolar volume para produto pago."
+    ],
+    "trechos": [
+     "recent PTE exams (January – June 2021)",
+     "There was a slight decrease from 1991 to 2001.",
+     "COPYRIGHT (©) 2025 PTEBANK. All Rights Reserved."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "idem — sem licença aberta; mesmo operador ptebank"
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-42",
+   "nome": null,
+   "url": "https://goarno.io/blog/re-tell-lecture-practice-questions-with-answers-pte-essential-questions/",
+   "dominio": "goarno.io",
+   "grupoOperador": "goarno",
+   "tipos": [
+    "retell_lecture"
+   ],
+   "volumeAparente": "50 itens declarados; 1 transcript visível no trecho consultado",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: página datada/atualizada em 2026 e intitulada “50 Re-tell Lecture Practice Questions with Answers”.",
+     "cadeia a partir de goarno.io (fonte aprovada do coleta inicial)"
+    ],
+    "negativos": [
+     "A origem como questões reais ou recordadas não é confirmada no trecho.",
+     "Sem licença de reutilização identificada."
+    ],
+    "trechos": [
+     "“each with the lecture audio, the full transcript, and a high-scoring sample answer”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: acesso livre, 50 lectures com transcript completo + resposta-modelo no HTML (re-verificado no cache); operatorGroup=goarno (mesmo operador da fonte do coleta inicial)"
+   },
+   "corroboracao": {
+    "items": 761,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 50
+  },
+  {
+   "id": "cand-43",
+   "nome": null,
+   "url": "https://ptehelper.com.au/20-cau-pte-retell-lecture/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "retell_lecture"
+   ],
+   "volumeAparente": "20 itens declarados; 1 transcript parcial visível no trecho consultado",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: página intitulada “20 Câu PTE Retell Lecture Kèm Đáp Án” e atualizada em 2026.",
+     "O trecho inclui transcript de lecture e identificação de questão."
+    ],
+    "negativos": [
+     "O trecho consultado direciona à plataforma para ver questões; não confirma que todos os gabaritos estejam acessíveis nessa página.",
+     "Sem licença de reutilização identificada."
+    ],
+    "trechos": [
+     "“#### RL-146”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: página lista só IDs (RL-146 etc.), sem transcript/answer no texto (re-verificado no cache)"
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-44",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-speaking/retell-lecture/retell-lecture-in-pte-practice-test-5/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "retell_lecture"
+   ],
+   "volumeAparente": "1 transcript e resposta-modelo parcial visíveis no trecho consultado",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "C2: página de 2018 identificada como prática de Retell Lecture com respostas de áudio.",
+     "Inclui transcript, key points e início de resposta-modelo."
+    ],
+    "negativos": [
+     "O trecho não comprova independentemente que o material seja de prova real ou recordado.",
+     "Sem licença de reutilização identificada."
+    ],
+    "trechos": [
+     "“Transcript is given for reference and practice purpose only”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "volume insuficiente (1 item, 2018) e sem alegação de autenticidade de prova real"
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-45",
+   "nome": null,
+   "url": "https://www.examenglishforfree.com/an-example-of-pte-part-1-item-type-5-retell-a-lecture/",
+   "dominio": "examenglishforfree.com",
+   "grupoOperador": "examenglishforfree",
+   "tipos": [
+    "retell_lecture"
+   ],
+   "volumeAparente": "1 lecture, transcript e resposta-modelo visíveis",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página oferece transcript e model answer para uma questão de Retell Lecture.",
+     "A página declara acesso sem conta ou pagamento."
+    ],
+    "negativos": [
+     "A página identifica o material como exemplo de prática, não comprova que seja questão real/recordada.",
+     "Sem licença de reutilização identificada."
+    ],
+    "trechos": [
+     "“A model answer has also been provided”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "volume insuficiente (1 item identificado como exemplo de prática, sem alegação de prova real)"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-46",
+   "nome": null,
+   "url": "https://goarno.io/blog/fill-in-the-blanks-dropdown-practice-questions-with-answers-pte-essential-questions/",
+   "dominio": "goarno.io",
+   "grupoOperador": "goarno",
+   "tipos": [
+    "read_fib_dropdown"
+   ],
+   "volumeAparente": "50 questões declaradas; exemplo visível com passagem, quatro lacunas, quatro opções por lacuna e respostas.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Formato-alvo e gabarito explícitos; o exemplo visível supera o mínimo de três opções por lacuna.",
+     "C2 fraco: a página se descreve como material essencial de prática, sem alegar memória de prova datada."
+    ],
+    "negativos": [
+     "A alegação de prática não comprova que os itens sejam questões reais de prova.",
+     "Sem evidência de corroboração independente para o item citado."
+    ],
+    "trechos": [
+     "“Each question below includes the passage, the options for each blank, and the correct answers.”",
+     "“Blank 1 options: resist, insist, assist, consist”",
+     "“Answers: Blank 1: assist”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: 50 passagens com opções por lacuna e gabarito explícitos no HTML; 4 opções por lacuna ≥ 3 (fidelidade)"
+   },
+   "corroboracao": {
+    "items": 761,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-47",
+   "nome": null,
+   "url": "https://www.edknot.com/pte-practice/reading-dropdown-blanks",
+   "dominio": "edknot.com",
+   "grupoOperador": "edknot",
+   "tipos": [
+    "read_fib_dropdown"
+   ],
+   "volumeAparente": "12 passagens declaradas; exemplo visível com passagem de 251 palavras e 7 lacunas numeradas.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página declara incluir passagem, opções por lacuna e escolha correta.",
+     "Exemplo mostra formato dropdown e comprimento de passagem dentro do intervalo pretendido."
+    ],
+    "negativos": [
+     "A página chama os itens de reais do banco EdKnot, mas não apresenta evidência independente de origem em provas.",
+     "A evidência recebida não mostra as opções e o gabarito do exemplo; validar esses campos antes de aceitar o item."
+    ],
+    "trechos": [
+     "“Twelve real Reading Fill in the Blanks (Dropdown) items from the EdKnot bank”",
+     "“the passage with its blanks, the options for each blank, and the correct choice.”",
+     "“251 words”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: 12 passagens com lacunas, opções e gabarito visíveis no HTML; updated 2026-10-06"
+   },
+   "corroboracao": {
+    "items": 54,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 12
+  },
+  {
+   "id": "cand-48",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-reading/fill-in-the-blanks-pte-reading/pte-academic-drop-down-fill-in-the-blanks-practice-test-sample-online/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "read_fib_dropdown"
+   ],
+   "volumeAparente": "Ao menos 1 passagem visível, com 8 lacunas numeradas e 4 opções listadas em cada conjunto.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Evidência direta de dropdown, passagem, opções e gabarito na mesma página.",
+     "A evidência visível satisfaz o filtro de mínimo de três opções por lacuna."
+    ],
+    "negativos": [
+     "Página antiga (2017); atualidade e autenticidade não confirmadas.",
+     "Não há evidência independente de corroboração nem alegação de prova datada no trecho visto."
+    ],
+    "trechos": [
+     "“Practice PTE Drop Down Fill in the Blanks”",
+     "“Teenagers rule but it seems strange to think that their reign began less than a century ago.”",
+     "“1 – C”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "volume insuficiente (1 item, 2017); autenticidade não estabelecida"
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-49",
+   "nome": null,
+   "url": "https://pteacademy.in/wp-content/uploads/2024/01/Reading-writing-Fill-in-the-blanks-pdf-2024-2.pdf",
+   "dominio": "pteacademy.in",
+   "grupoOperador": "pteacademy",
+   "tipos": [
+    "read_fib_dropdown"
+   ],
+   "volumeAparente": "PDF indexado; trecho mostra uma passagem com 5 lacunas e conjuntos de opções.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Trecho indexado expõe passagem com lacunas numeradas e opções para os espaços.",
+     "PDF público indexado, sem barreira de acesso indicada nos resultados consultados."
+    ],
+    "negativos": [
+     "A citação consultada não inclui opções completas nem gabarito; não é elegível para ingestão sem conferir essas partes.",
+     "Não há prova independente de origem real dos itens."
+    ],
+    "trechos": [
+     "“Below is a text with blanks. Click on each blank, a list of choices will appear.”",
+     "“This explains why these celestial visitors are fleeting”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2/G3 não comprovados no trecho: opções completas e gabarito ausentes; direitos de reuso incertos"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-50",
+   "nome": null,
+   "url": "https://www.edknot.com/pte-practice/reading-mcq-single",
+   "dominio": "edknot.com",
+   "grupoOperador": "edknot",
+   "tipos": [
+    "read_mcq_single"
+   ],
+   "volumeAparente": "12 questões declaradas; exemplo visível com passagem de 97 palavras e quatro opções.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página declara passagem, pergunta, opções e opção correta marcada.",
+     "Exemplo visível atende às faixas-alvo: 97 palavras e quatro opções.",
+     "Possível sinal C1 para o item “Tree Life Villa Complex”: mesma passagem também aparece em outro domínio encontrado, mas a identidade e independência das versões não foram verificadas."
+    ],
+    "negativos": [
+     "A alegação “real items” não é corroborada por evidência de origem em prova.",
+     "Não foi possível confirmar no trecho consultado se o gabarito é exibido sem interação."
+    ],
+    "trechos": [
+     "“Twelve real Reading Multiple Choice (Single Answer) items from the EdKnot bank”",
+     "“Tree of Life is a peaceful villa complex set on the waters of Homestead, Florida”",
+     "“B Every building in the complex has sharp angles.”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: gabarito exibido apenas no player (JS) — 'Answer it in the player', sem resposta em texto"
+   },
+   "corroboracao": {
+    "items": 54,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-51",
+   "nome": null,
+   "url": "https://www.pteacademy.in/wp-content/uploads/2023/11/reading-MCCSA-pdf-2023.pdf",
+   "dominio": "pteacademy.in",
+   "grupoOperador": "pteacademy",
+   "tipos": [
+    "read_mcq_single"
+   ],
+   "volumeAparente": "PDF público com ao menos uma passagem extensa e instrução de resposta única; trecho consultado não expõe as opções nem o gabarito.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Material identificado como Multiple-choice, choose single answer; contém texto de leitura substancial.",
+     "PDF diretamente indexado, sem barreira de acesso indicada nos resultados consultados."
+    ],
+    "negativos": [
+     "Não comprova no trecho visto a faixa exigida de 3–5 opções nem resposta correta.",
+     "Não elegível até confirmar opções, gabarito e contagem de palavras da passagem."
+    ],
+    "trechos": [
+     "“Read the text and answer the multiple-choice question by selecting the correct response.”",
+     "“Only one response is correct.”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2/G3 não comprovados no trecho: opções e gabarito ausentes; direitos de reuso incertos"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-52",
+   "nome": null,
+   "url": "https://hotshot24.com/pte-academic-reading-multiple-choice-single-answer-practice-sample-5.html",
+   "dominio": "hotshot24.com",
+   "grupoOperador": "hotshot24",
+   "tipos": [
+    "read_mcq_single"
+   ],
+   "volumeAparente": "Ao menos 1 questão visível; trecho mostra passagem e 5 opções, mas não inclui resposta.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Formato Reading MCQ single answer e passagem diretamente visíveis.",
+     "Cinco opções mencionadas, dentro do requisito de 3–5."
+    ],
+    "negativos": [
+     "Gabarito não consta no trecho consultado.",
+     "Página antiga (2017); atualidade e autenticidade não confirmadas.",
+     "A descrição menciona cinco opções, mas o exemplo citado não exibe todas."
+    ],
+    "trechos": [
+     "“traditional multiple-choice questions with five answer choices, of which you must select one.”",
+     "“Read the text and answer the multiple choice question by selecting the correct response.”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: sem gabarito visível no texto (re-verificado no cache)"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-53",
+   "nome": null,
+   "url": "https://www.ptesprinters.com/multiple-choice-choose-single-answer/reading-multiple-choice-choose-single-answer/",
+   "dominio": "ptesprinters.com",
+   "grupoOperador": "ptesprinters",
+   "tipos": [
+    "read_mcq_single"
+   ],
+   "volumeAparente": "Ao menos 2 questões visíveis; os exemplos mostram passagens e quatro opções cada.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Questões e quatro opções visíveis em texto na página.",
+     "Formato Reading MCQ single answer identificado explicitamente."
+    ],
+    "negativos": [
+     "O trecho consultado não exibe gabarito.",
+     "Página de 2020; autenticidade e atualidade não estabelecidas.",
+     "Conteúdo não comprova comprimento da passagem dentro da faixa solicitada."
+    ],
+    "trechos": [
+     "“Mock Test: PTE Reading: Reading Multiple-choice, Choose Single Answer-01”",
+     "“Which of the following most accurately summarizes the opinion of the author in the text?”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha (sem gabarito visível no trecho) + fetch falhou na re-verificação (site indisponível)"
+   },
+   "corroboracao": {
+    "items": 20,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-54",
+   "nome": null,
+   "url": "https://goarno.io/blog/multiple-choice-single-answer-reading-practice-questions-with-answers-pte-essential-questions/",
+   "dominio": "goarno.io",
+   "grupoOperador": "goarno",
+   "tipos": [
+    "read_mcq_single"
+   ],
+   "volumeAparente": "50 questões declaradas; exemplo visível com passagem e resposta, mas as opções completas não aparecem no trecho consultado.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página declara passagem, opções e resposta correta para cada questão.",
+     "A passagem visível tem conteúdo apropriado para pergunta de compreensão."
+    ],
+    "negativos": [
+     "A contagem de opções e a resposta do exemplo não podem ser validadas com o trecho recebido.",
+     "Alegação de prática não prova origem em questões reais de prova."
+    ],
+    "trechos": [
+     "“Each question includes a passage, answer options, and the correct answer.”",
+     "“What is the main point the author makes by discussing Cahokia?”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: 50 questões com passagem 40–400 palavras, 4 opções (a–d) e resposta explícitas no HTML"
+   },
+   "corroboracao": {
+    "items": 761,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-55",
+   "nome": null,
+   "url": "https://ptehelper.com.au/pte-summarize-written-text-with-answers/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "swt"
+   ],
+   "volumeAparente": "3 passagens com soluções visíveis na página; conteúdo acessível sem cadastro.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página identifica a coleção como “With Answers” e declara atualização em fevereiro de 2025.",
+     "Há passagem e solução-modelo para cada item; a primeira contém cerca de 150 palavras."
+    ],
+    "negativos": [
+     "A alegação de questões reais/repetidas é editorial e não foi corroborada por uma segunda fonte independente.",
+     "A solução de exemplo tem 62 palavras, mas o site descreve o formato como 50–75 palavras; verificar a compatibilidade com o formato vigente antes de importar."
+    ],
+    "trechos": [
+     "“We all, including the ‘experts’, seem to be peculiarly inept at predicting the likely development of our technologies”",
+     "“(62 words)”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: 3 itens SWT completos (Original Text 150+ palavras + Solution em 1 frase, 54–67 palavras) no HTML; operatorGroup=ptehelper (mesmo operador de cand-22)"
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 3
+  },
+  {
+   "id": "cand-56",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-reading/re-order-paragraphs/pte-academic-reading-reorder-paragraphs-practice-sample-answers/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "reorder_paragraphs"
+   ],
+   "volumeAparente": "Página declara Practice Test 7; no conteúdo aberto, itens 31 e 32 tinham 4 e 5 blocos, respectivamente, com ordem indicada.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Blocos embaralhados e sequências de resposta aparecem como texto legível na página.",
+     "O item 32 oferece cinco blocos e uma ordem explícita."
+    ],
+    "negativos": [
+     "Conteúdo datado de 2018.",
+     "A página é material de preparação e não prova que os itens sejam questões reais de exame; copyright/licença de reutilização não confirmado."
+    ],
+    "trechos": [
+     "“D – A- B- C”",
+     "“C-A-E-B-D”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1–G3 ok: 5 itens reorder (31–35) com blocos rotulados e ordem-correta explícita no HTML; volume pequeno mas tipo já na meta (esforço oportunista)"
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 5
+  },
+  {
+   "id": "cand-57",
+   "nome": null,
+   "url": "https://leverageedu.com/learn/satp-pte-writing-essay-topics-with-answers-pdf/",
+   "dominio": "leverageedu.com",
+   "grupoOperador": "leverageedu",
+   "tipos": [
+    "write_essay"
+   ],
+   "volumeAparente": "Lista pública de prompts PTE; a página oferece link para PDF, mas não foi verificada a obtenção do arquivo.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página aberta; prompts de essay legíveis no texto, incluindo tópico sobre tabaco com formulação de opinião."
+    ],
+    "negativos": [
+     "Na página aberta, não foi localizado modelo de resposta; requisito de prompt mais modelo não demonstrado.",
+     "PDF de download não aberto nem avaliado; conteúdo, volume e gabarito fora da página permanecem não verificados.",
+     "A alegação de “most common” não foi corroborada independentemente."
+    ],
+    "trechos": [
+     "“Do Governments have a legitimate role in protecting citizens from the harmful effects of their own decisions to smoke”"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2/C3 não comprovados: prompts sem resposta-modelo visível; PDF não verificado — item sem solução não atende à F2 (gabarito)"
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-58",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/fill-in-the-blanks/pte-listening-fill-in-the-blanks/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "lst_fib"
+   ],
+   "volumeAparente": "Teste 22; a página mostra pelo menos itens numerados 61 e 62.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 60,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página apresenta áudio, transcrição com lacunas e respostas explícitas para os itens mostrados.",
+     "Material publicado em 2018; trata-se de prática compilada, não de uma alegação comprovada de questões reais de exame."
+    ],
+    "negativos": [
+     "As respostas estão sob “For Answers Click Here”; verificar que o link abre sem cadastro ou outra barreira.",
+     "A fonte não identifica claramente os itens como questões de exames reais."
+    ],
+    "trechos": [
+     "PTE Listening Fill In The Blanks – Go through these PTE Academic Listening “Fill in the Blanks” practice questions to score well in actual PTE exam.",
+     "Everywhere it’s tough to raise a family these days. In the wilds of South Africa, two lionesses sisters are single mothers with two cubs (1) _ _ _ _ _ _ _. Their mate and protector have gone, leaving them (2) _ _ _ _ _ _ _ to marauding males who will kill their cubs and claim their territory.",
+     "For Answers Click Here",
+     "(1) each (2) vulnerable (3) genetic (4) bush"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "3 itens lst_fib com transcript, lacunas e gabarito inline ('(1) each (2) vulnerable...'); volume pequeno."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 3
+  },
+  {
+   "id": "cand-59",
+   "nome": null,
+   "url": "https://pteacademy.in/free-listening-writing-fill-in-the-blanks-practice-material/",
+   "dominio": "pteacademy.in",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_fib"
+   ],
+   "volumeAparente": "Página de material com pelo menos um áudio vinculado; remete a materiais adicionais.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página descreve o formato como transcrição com palavras omitidas e disponibiliza áudio.",
+     "A página afirma que o material inclui respostas."
+    ],
+    "negativos": [
+     "O trecho localizado não exibe as lacunas preenchidas nem o gabarito de um item específico; elegibilidade depende de confirmar o conteúdo na página.",
+     "A página promove cursos e agendamento, embora o trecho visível não indique que sejam necessários para acessar o material."
+    ],
+    "trechos": [
+     "For this item type you are presented with a transcript of the audio recording, however, some words are missing. Restore the transcript by typing in the missing words.",
+     "https://pteacademy.in/wp-content/uploads/2018/09/bearsfib.mp3",
+     "Our PTE listening fill in the blanks with answers practice with answers can boost your preparation."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: 1 áudio e sem transcript/gabarito inline; material direciona a cadastro ('ENROLL NOW')."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-60",
+   "nome": null,
+   "url": "https://www.pteacademy.in/free-pte-listening-fill-in-the-blanks-with-answers-page-2/",
+   "dominio": "pteacademy.in",
+   "grupoOperador": null,
+   "tipos": [
+    "lst_fib"
+   ],
+   "volumeAparente": "Cinco áudios listados na página.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página descreve a tarefa com transcript e lacunas e lista vários áudios.",
+     "É parte de uma sequência de páginas de material gratuito."
+    ],
+    "negativos": [
+     "O trecho encontrado não inclui transcrições completas nem gabarito explícito; confirmar se “Click Here” abre respostas.",
+     "A página contém formulário de inscrição para cursos; não foi confirmado se o conteúdo exige cadastro."
+    ],
+    "trechos": [
+     "For this item type you are presented with a transcript of the audio recording, however, some words are missing. Restore the transcript by typing in the missing words.",
+     "https://www.pteacademy.in/wp-content/uploads/2018/09/plantsfib.mp3",
+     "https://www.pteacademy.in/wp-content/uploads/2018/09/dragonfly.mp3",
+     "Click Here"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: áudios listados sem transcripts inline; respostas atrás de 'Click Here' não confirmadas; formulário de inscrição."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-61",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/summarize-spoken-text/pte-listening-test-9-summarize-spoken-text/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Um item SST nesta página; o índice da categoria lista outros materiais.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Inclui áudio, transcrição explícita e resposta-modelo indicada na página.",
+     "Publicado em 22 de fevereiro de 2018."
+    ],
+    "negativos": [
+     "A página aponta a resposta-modelo por link (“Click Here”); confirmar que abre sem barreira.",
+     "Material de prática; não há sinal explícito de que seja uma questão real ou repetida de exame."
+    ],
+    "trechos": [
+     "We are providing sample response for your convenience.",
+     "https://www.pteexampreparation.com/wp-content/uploads/2018/02/s2.mp3",
+     "TRANSCRIPT (Only for reference, it will not be given in PTE Academic Test)",
+     "I think its something to do with…his…with the way he brings a particular intensity to language, the way that he writes poems…force or push language into moments of unexpected power and beauty and strangeness…",
+     "SAMPLE RESPONSE: Click Here For Summary"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume 1 item/página; material 2017–2018 sem sinal de repetição; não justifica extração."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-62",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/summarize-spoken-text/pte-exam-practice-material-10/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Um item SST nesta página; parte de uma categoria com vários materiais.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Inclui áudio e transcrição explícita; apresenta link de resposta-modelo.",
+     "Publicado em 19 de fevereiro de 2018."
+    ],
+    "negativos": [
+     "O trecho disponível não mostra o resumo-modelo em si; depende de link “Click Here”.",
+     "Material apresentado como prática, sem comprovação de origem em exame real."
+    ],
+    "trechos": [
+     "We are providing sample response for your convenience.",
+     "https://www.pteexampreparation.com/wp-content/uploads/2018/02/s3.mp3",
+     "TRANSCRIPT (Only for reference, it will not be given in PTE Academic Test)",
+     "What does it mean to be dyslexic? A new book The Dyslexia Debate says the term dyslexia is a broad and meaningless label.",
+     "One of the authors of this title is Prof. Julian Eliot from Durham University."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume 1 item/página; material 2017–2018 sem sinal de repetição; resposta-modelo atrás de link."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-63",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/summarize-spoken-text/pte-listening-summarize-spoken-text/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Um item SST nesta página; parte de uma categoria com vários materiais.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Inclui áudio, transcrição explícita e resposta-modelo indicada.",
+     "A página identifica o conteúdo como material de prática SST."
+    ],
+    "negativos": [
+     "A resposta-modelo aparece como link (“Click Here For Summary”); confirmar acesso direto.",
+     "Material de 2018, sem sinal de que seja questão recente de exame."
+    ],
+    "trechos": [
+     "https://www.pteexampreparation.com/wp-content/uploads/2018/02/s1.mp3",
+     "TRANSCRIPT (Only for reference, it will not be given in PTE Academic Test)",
+     "Ahmm. I remember having a conversation with a dear friend of mine who died a couple of years ago – David Frisby who was the translator of the Simmel’s Philosophy of Money.",
+     "SAMPLE RESPONSE: Click Here For Summary"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume 1 item/página; material 2017–2018 sem sinal de repetição."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-64",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/summarize-spoken-text/pte-academic-listening-summarize-spoken-test-1-practice-sample/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Item 1; a página fornece um áudio e uma transcrição longa.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Transcrição explícita e áudio vinculados.",
+     "A página afirma fornecer uma resposta-amostra."
+    ],
+    "negativos": [
+     "O trecho recuperado não mostra a resposta-modelo completa.",
+     "Material de prática de 2017; não há evidência de repetição em exames atuais."
+    ],
+    "trechos": [
+     "For your convenience, we have given sample response.",
+     "http://www.pteexampreparation.com/wp-content/uploads/2017/06/spoken-1.mp3",
+     "TRANSCRIPT (Only for reference, it will not be given in PTE Academic Test)",
+     "A blanket of fresh snow can brighten a winter landscape. But snow is more than just beautiful. It is helpful, too. Snow benefits plants, animals, and people in many ways."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume 1 item/página; material 2017–2018 sem sinal de repetição."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-65",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-listening/summarize-spoken-text/pte-academic-listening-summarize-spoken-text-2-sample-practice-material-online/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": null,
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Um item SST nesta página.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Inclui áudio, transcrição e resposta-modelo explícita.",
+     "Publicado em julho de 2017."
+    ],
+    "negativos": [
+     "Material antigo e apresentado como prática, não como recall verificado.",
+     "A página não oferece sinal de relevância atual ou de repetição recente."
+    ],
+    "trechos": [
+     "We are providing sample response for your convenience.",
+     "http://www.pteexampreparation.com/wp-content/uploads/2017/07/summ.mp3",
+     "TRANSCRIPT (Only for reference, it will not be given in PTE Academic Test)",
+     "Many farmers are living below their average standard life. A country in which industry arrives, agricultural development decreases.",
+     "SAMPLE RESPONSE: Click Here For Summary"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume 1 item/página; material 2017–2018 sem sinal de repetição."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-66",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-summarize-spoken-text-pte-sst-february-2023/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Vários itens SST; a página recuperada mostra ao menos os itens 5 e 6.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Datada de fevereiro de 2023 e explicitamente apresentada como questões previstas/repetidas.",
+     "Contém áudio, texto/transcrição e respostas-modelo para os exemplos visíveis."
+    ],
+    "negativos": [
+     "A própria página diz que a versão completa é acessada por meio de material previsto; confirmar se o conteúdo desejado está acessível sem cadastro ou pagamento.",
+     "São questões previstas, não confirmação independente de que cada item apareceu em exame."
+    ],
+    "trechos": [
+     "Published: 2023-02-02",
+     "Summarize Spoken Text questions tend to have higher repeated rate than other question types in PTE Academic test.",
+     "We selected some of PTE predicted Summarize Spoken Text (Listening) for February 2023.",
+     "https://www.ptebank.com/wp-content/uploads/2021/02/Genes.mp3",
+     "Since the discovery of DNA structure, people have believed that genes have an impact only on people’s physical structure.",
+     "Genes| PTE Summarize Spoken Text (SST) – Sample Answer:"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'PTE predicted SST February 2023'; 17 respostas-modelo + ~13 transcripts + áudios inline."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 2
+  },
+  {
+   "id": "cand-67",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-summarize-spoken-text-pte-sst-march-2023/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "sst"
+   ],
+   "volumeAparente": "Vários itens SST; a página recuperada mostra ao menos um exemplo sobre HTML.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Datada de março de 2023 e explicitamente rotulada como questões previstas.",
+     "O exemplo traz áudio, fala transcrita e resposta-modelo."
+    ],
+    "negativos": [
+     "A página indica que a versão completa requer acesso ao material de questões previstas.",
+     "Previsão/repetição é uma alegação do provedor, não confirmação de aparição em prova."
+    ],
+    "trechos": [
+     "PTE Listening Summarize Spoken Text (SST) exam questions",
+     "We selected some of PTE predicted Summarize Spoken Text (Listening) for March 2023.",
+     "https://www.ptebank.com/wp-content/uploads/2022/01/html.mp3",
+     "Well, the 90s came around and finally it clicked that normal people could get online, which hadn’t really clicked before.",
+     "HTML | PTE Summarize Spoken Text (SST) – Sample Answer:"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'PTE predicted SST March 2023'; ~20 respostas-modelo + transcripts + áudios."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 4
+  },
+  {
+   "id": "cand-68",
+   "nome": null,
+   "url": "https://ptehelper.com.au/pte-read-aloud-repeated-questions-20-cau-thang-nao-cung-gap/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "20 passagens; página atualizada em 23 de fevereiro de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Identifica as passagens como questões repetidas e afirma que foram confirmadas por sua equipe de coleta e alunos.",
+     "Inclui passagens completas e adequadas ao formato."
+    ],
+    "negativos": [
+     "A publicação original é de 2021.",
+     "Amostra contém erros de redação e alegações promocionais sobre repetição."
+    ],
+    "trechos": [
+     "Sau đây PTE Helper xin liệt kê 20 đoạn Read Aloud thường xuất hiện do Đội Ngũ Thu Thập Đề tại nhà PTE Helper và các bạn học viên xác nhận.",
+     "Research indicates that more than 60% of customers are now willing to complain most of the time, a 10% increase in five years. 61% say they expect a telephone complaint to be reserved on the same day compared to 51% in 2001."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "20 RA 'repeated' com passagens íntegras numeradas (Câu N | PTE.Tools NNN); amostra visível."
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 19
+  },
+  {
+   "id": "cand-69",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-test-recent-exam-memories-amp-repeated-questions-for-july-2024/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias passagens de memória de exame com datas de julho de 2024",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página datada e explicitamente rotulada como memórias recentes de exame e questões repetidas.",
+     "Passagens completas, com datas associadas a cada relato."
+    ],
+    "negativos": [
+     "Relatos de candidatos não verificados independentemente.",
+     "A página é de 2024."
+    ],
+    "trechos": [
+     "PTE test recent exam memories & repeated questions for July 2024",
+     "– 14 July 2024",
+     "The bill calls for the establishment of the National Landslide Hazards Reduction Program within one year of becoming law. The program serves numerous functions, including to identify and understand landslide hazards and risks, reduce losses from landslides, protect communities at risk of landslides hazards, and improve communication and emergency preparedness."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'Recent exam memories & repeated questions' julho-2024; ~11 passagens RA longas visíveis."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 8
+  },
+  {
+   "id": "cand-70",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-question-bank-updates-february-2025/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias passagens de atualização de fevereiro de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Atualização mensal datada; identifica o conteúdo como questões novas de exame.",
+     "Traz passagens integrais de Read Aloud."
+    ],
+    "negativos": [
+     "Não fornece comprovação independente de que as questões vieram de exames reais.",
+     "Direciona à prediction file completa para obter o conjunto inteiro."
+    ],
+    "trechos": [
+     "PTE question bank updates | February 2025",
+     "PTE New Questions February – Read Aloud:",
+     "Statistics are indicators of change and allow meaningful comparisons to be made. While it may be the issues rather than the statistics as such that grab people’s attention, it should be recognized that it is the statistics that informed the issues. Statistical literacy, then, is the ability to accurately understand, interpret and evaluate the data that inform these issues."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'PTE New Questions February – Read Aloud' com 5 passagens íntegras; C2 mensal."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 5
+  },
+  {
+   "id": "cand-71",
+   "nome": null,
+   "url": "https://ptehelper.com.au/cap-nhat-de-thi-pte-speaking/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias questões de Read Aloud; página atualizada em 24 de abril de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 64,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página datada de 2025, voltada a questões de speaking e a amostras de leitura.",
+     "Inclui texto integral de várias passagens."
+    ],
+    "negativos": [
+     "Conteúdo promocional de um centro de preparação.",
+     "Não explicita a data de exame para cada passagem."
+    ],
+    "trechos": [
+     "Latest Update 24 Tháng Tư 2025",
+     "## 1. PTE Read Aloud | Đề Thi PTE Speaking 2025",
+     "When buying a house, for example, it’s best to let our unconscious mull over the many variables. But when we’re picking stocks and shares, intuition often leads us astray. The trick is to determine when to lean on which part of the brain. And to do this, we need to think harder and smarter about how we think."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Update speaking 2025-04-24; seção RA com passagens íntegras ('RA N')."
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 6
+  },
+  {
+   "id": "cand-72",
+   "nome": null,
+   "url": "https://www.stormedugo.com/blog/most-important-read-aloud-passages-for-pte-academic-2025",
+   "dominio": "stormedugo.com",
+   "grupoOperador": "stormedugo",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "50 passagens; publicação de 16 de abril de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 68,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Lista datada de passagens de alta frequência para PTE Academic 2025.",
+     "Apresenta textos integrais para prática."
+    ],
+    "negativos": [
+     "Não informa fontes, datas de relatos ou método de validação da frequência.",
+     "Inclui texto promocional."
+    ],
+    "trechos": [
+     "Posted date: April 16 2025",
+     "We’ve compiled a list of 50 high-frequency, important Read Aloud passages that you must practice for PTE Academic 2025.",
+     "Climate change mitigation consists of actions to limit global warming and its related effects. These include reducing greenhouse gas emissions and enhancing sinks of greenhouse gases. Mitigation may also be achieved by increasing the capacity of carbon sinks, such as reforestation."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra)"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Fonte do coleta inicial (stormedugo RA, 50 itens já integrados) — sem extração nesta onda; re-avaliação de tier na reavaliação global."
+   },
+   "corroboracao": {
+    "items": 294,
+    "corroborated": 95,
+    "pct": 32.3,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 95/294 itens (32.3%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-73",
+   "nome": null,
+   "url": "https://www.79score.com/blog/pte-speaking-read-aloud-examples/",
+   "dominio": "79score.com",
+   "grupoOperador": null,
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "20 exemplos anunciados; publicação de 24 de abril de 2025",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Publicado em 2025 e enquadrado como exemplos de Read Aloud repetidos/preditivos.",
+     "A página contém texto de prática."
+    ],
+    "negativos": [
+     "O trecho indexado não mostra as passagens completas nem permite confirmar o volume integral.",
+     "Não especifica datas de relatos de exame."
+    ],
+    "trechos": [
+     "24 Apr 2025",
+     "Practice With Most Repeated PTE Speaking Read Aloud Examples",
+     "## 20 PTE Speaking Read Aloud Example"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume não confirmável: apenas parte das 20 passagens visíveis no HTML; sem datas de relato; não aprovada para ingestão."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-74",
+   "nome": null,
+   "url": "https://onepte.com/wp-content/uploads/2024/12/OnePTE-Prediction-FIle-PDF-Read-Aloud-2025.pdf",
+   "dominio": "onepte.com",
+   "grupoOperador": "oneppte",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Prediction file em PDF; várias passagens integrais",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 62,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "PDF direto, indexado e identificado como prediction file de Read Aloud 2025.",
+     "Contém textos de passagem, não apenas dicas."
+    ],
+    "negativos": [
+     "O material não informa no trecho indexado datas de exame para cada item.",
+     "Há aparentes erros de transcrição no conteúdo."
+    ],
+    "trechos": [
+     "1.Legacy Unveiled",
+     "The Royal Institution is an organisation that has been around for 209 years. Many of the people that have worked here have been scientists themselves, including Michael Faraday.",
+     "3.Tesla vs. Edison"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "PDF prediction RA (jan 2025); 50 passagens numeradas com título; amostra manual 10."
+   },
+   "corroboracao": {
+    "items": 150,
+    "corroborated": 27,
+    "pct": 18,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 27/150 itens (18%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 43
+  },
+  {
+   "id": "cand-75",
+   "nome": null,
+   "url": "https://onepte.com/wp-content/uploads/2024/11/OnePTE-Read-Aloud-PTE-Predcition-November-24.pdf",
+   "dominio": "onepte.com",
+   "grupoOperador": "oneppte",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "PDF de prediction de novembro de 2024; várias passagens",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 62,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "PDF direto com identificação temporal de novembro de 2024.",
+     "Inclui textos completos de Read Aloud."
+    ],
+    "negativos": [
+     "Não apresenta evidência específica de exame para cada passagem.",
+     "Possível erro de digitação no nome do arquivo."
+    ],
+    "trechos": [
+     "1)Pollution Sources",
+     "When it comes to nitrogen dioxide, vehicle emission is the main source. Additionally, power plants and factories also produce these pollutants. Volcanic eruptions, lightning, and the decomposition of organic matter can also release significant amounts of nitrogen dioxide. The problem is that nitrogen dioxide can create smog, which is harmful, especially in sunlight."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra)"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "PDF prediction RA (nov-2024); 52 passagens numeradas íntegras; amostra manual 10. Mesmo operador do PDF jan (aprovado)."
+   },
+   "corroboracao": {
+    "items": 150,
+    "corroborated": 27,
+    "pct": 18,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 27/150 itens (18%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 45
+  },
+  {
+   "id": "cand-76",
+   "nome": null,
+   "url": "https://www.gurully.com/Prediction_File_August_2025%20.pdf",
+   "dominio": "gurully.com",
+   "grupoOperador": "gurully",
+   "tipos": [
+    "read_aloud",
+    "repeat_sentence",
+    "wfd"
+   ],
+   "volumeAparente": "Prediction file de agosto de 2025; seção Read Aloud começa na página 5",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 62,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "PDF direto e datado de agosto de 2025.",
+     "Índice identifica a seção Read Aloud e o PDF inclui passagens completas."
+    ],
+    "negativos": [
+     "Não há atribuição de datas de exame aos itens no trecho consultado.",
+     "Não comprova a alegação de previsão."
+    ],
+    "trechos": [
+     "August- 2025",
+     "Read Aloud … 5",
+     "History is selective. What history books tell us about the past is not everything that happened, but what historians have selected. They cannot put in everything: choices have to be made."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra)"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Prediction file ago-2025 (739 págs): seção RA pp. 5–54 (~40 passagens), seção RS pp. 55–74, seção WFD p. 714+; seções SST (598–713) sem resposta-modelo → skip honesto; amostra manual 10. Aprovada por tipo read_aloud, repeat_sentence e wfd (extensão registrada nesta linha, formulário de gate 'Por tipo')."
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 721
+  },
+  {
+   "id": "cand-77",
+   "nome": null,
+   "url": "https://www.ptehelper.com.au/wp-content/uploads/2022/07/Read-Aloud-Collection-by-PTE-HELPER_Final-Version.pdf",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Coleção extensa; índice inclui coleção temática e questões verificadas de exame real",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 60,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "PDF integral, organizado por temas e com seção declarada de questões reais verificadas.",
+     "Contém passagens completas com extensão apropriada."
+    ],
+    "negativos": [
+     "O documento declara copyright de junho de 2019; não é recente.",
+     "A alegação de verificação é da própria fonte."
+    ],
+    "trechos": [
+     "C. LATEST AND VERIFIED PTE REAL EXAM QUESTIONS COLLECTED FROM PTE REAL EXAM – BY PTE HELPER... 54",
+     "The elephant is the largest living land mammal. During evolution, its skeleton has greatly altered from the usual mammal, design for two main reasons. One is to cope with the great weight of huge grinding cheek teeth and elongated tusk teeth, making the skull particularly massive. The other is to support the enormous bulk of such a huge body."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra)"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Coleção RA PTE Helper (jun-2019), 2.231 linhas; seção C 'LATEST AND VERIFIED PTE REAL EXAM QUESTIONS' (p. 54+) + coleção por temas; amostra manual 10."
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-78",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-speaking/read-aloud/pte-read-aloud-practice-test/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "20+ questões; publicação de 8 de junho de 2018",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 60,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Declara incluir questões repetidas, novas e de prática.",
+     "Passagens completas acompanhadas por links de áudio-modelo."
+    ],
+    "negativos": [
+     "Conteúdo antigo, de 2018.",
+     "A página mistura questões reais declaradas com material de prática."
+    ],
+    "trechos": [
+     "This post contains 20+ PTE Read Aloud questions including repeated, newly asked & some practice questions.",
+     "Line engraving on metal, which, to a great extent, was a development of the goldsmith’s craft of ornamenting armor and precious metals, did not emerge as print-marketing techniques until well into the 15th century. Copper, the metal mainly used for engraving, was expensive, and engraving itself was laborious and took a long time."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'20+ RA questions including repeated'; passagens íntegras; material de 2018 (C2 fraco)."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 3
+  },
+  {
+   "id": "cand-79",
+   "nome": null,
+   "url": "https://www.pteexampreparation.com/pte-speaking/read-aloud/pte-read-aloud-samples/",
+   "dominio": "pteexampreparation.com",
+   "grupoOperador": "pteexampreparation",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Lista de amostras; inclui passagens numeradas e áudio",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 58,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Disponibiliza passagens de leitura completas, não apenas dicas.",
+     "Algumas passagens têm áudio-modelo."
+    ],
+    "negativos": [
+     "Página publicada em 2018.",
+     "A fonte classifica o conteúdo como amostras/prática, não necessariamente como recalls."
+    ],
+    "trechos": [
+     "June 11, 2018",
+     "In the second quarter of the 19th century, a rapidly growing middle class created a great demand for furniture production. Yet at this stage, while machines were used for certain jobs, such as carved decoration, there was no real mass production. The extra demand was met by numerous woodworkers. Mass production came later and the quality of domestic furniture declined."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Passagens RA numeradas com áudio-modelo; material de 2018."
+   },
+   "corroboracao": {
+    "items": 14,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 3
+  },
+  {
+   "id": "cand-80",
+   "nome": null,
+   "url": "https://www.ptestudent.com/2021/10/pte-read-alouds-repeated.html",
+   "dominio": "ptestudent.com",
+   "grupoOperador": "ptestudent",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias passagens em lista de questões repetidas; publicação de 16 de outubro de 2021",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 58,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Título explicita “Repeated” e a página fornece passagens completas.",
+     "Os textos se enquadram no formato de Read Aloud."
+    ],
+    "negativos": [
+     "Publicação de 2021.",
+     "Não informa fontes ou datas individuais de recall."
+    ],
+    "trechos": [
+     "Pte Read Alouds Repeated",
+     "2. Elephant",
+     "The elephant is the largest living land mammal. During evolution, its skeleton has greatly altered from the usual mammal, designed for two main reasons. One is to cope with the great weight of huge grinding cheek teeth and elongated tusk, making the skull particularly massive. The other is to support the enormous bulk of such a huge body."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'PTE Read Alouds Repeated' com 10 passagens tituladas e íntegras."
+   },
+   "corroboracao": {
+    "items": 3,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 3
+  },
+  {
+   "id": "cand-81",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-question-bank-updates-january-2025/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias passagens identificadas como questões novas de Read Aloud em janeiro de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Atualização mensal datada e ligada a prediction file de janeiro de 2025.",
+     "Inclui passagens completas."
+    ],
+    "negativos": [
+     "Não há datas de relato por item.",
+     "A fonte não demonstra independentemente que os textos foram cobrados em exame."
+    ],
+    "trechos": [
+     "PTE question bank updates | January 2025",
+     "PTE New Questions January – Read Aloud:",
+     "An innovative new product or service can give a firm a head start over its rivals, which can be difficult for a new entrant to overcome. If the new technology is also patented, then other firms cannot simply copy its design. It is legally protected."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'PTE New Questions January – Read Aloud' com passagens íntegras; C2 ('question bank updates' mensal)."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 5
+  },
+  {
+   "id": "cand-82",
+   "nome": null,
+   "url": "https://www.ptebank.com/pte-exam-question-bank-for-september-2025/",
+   "dominio": "ptebank.com",
+   "grupoOperador": "ptebank",
+   "tipos": [
+    "read_aloud"
+   ],
+   "volumeAparente": "Várias passagens de atualização de setembro de 2025",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Data de setembro de 2025 e menção a questões coletadas de exames e prediction file.",
+     "Fornece passagens completas de Read Aloud."
+    ],
+    "negativos": [
+     "A alegação de coleta de questões reais é da própria fonte.",
+     "Sem datas individuais de relatos de exame."
+    ],
+    "trechos": [
+     "PTE exam question bank for September 2025",
+     "We continuously gather and update real PTE exam question bank to ensure you’re always equipped with the most up-to-date material and model answers.",
+     "Within this free course, you will be introduced briefly to the discipline of child psychology and to theories and approaches that have been developed to help us understand and support children’s lives by focusing on the individual children."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Question bank setembro-2025; ~7 passagens RA visíveis; C2 alegado pela fonte."
+   },
+   "corroboracao": {
+    "items": 29,
+    "corroborated": 13,
+    "pct": 44.8,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 13/29 itens (44.8%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 5
+  },
+  {
+   "id": "cand-83",
+   "nome": null,
+   "url": "https://pteschool.com/exam-questions/",
+   "dominio": "pteschool.com",
+   "grupoOperador": null,
+   "tipos": [
+    "repeat_sentence",
+    "wfd"
+   ],
+   "volumeAparente": {
+    "wfd": 245,
+    "repeat_sentence": 235
+   },
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "A página informa coleção de questões de exames reais desde 2018 e publicação mensal de previsões.",
+     "As contagens declaradas excedem as metas mínimas de ambos os tipos.",
+     "Trechos de exemplos WFD e RS estão visíveis na página de resultados da busca."
+    ],
+    "negativos": [
+     "A alegação de repetição e cobertura é promocional e não verificada independentemente.",
+     "O volume informado pode se referir a arquivo de previsão; confirmar que os itens são acessíveis sem cadastro, pagamento ou captcha."
+    ],
+    "trechos": [
+     "Collection of Real Exam Questions since 2018",
+     "Repeat Sentence 235",
+     "Write From Dictation 245",
+     "We are the only PTE Learning Centre that gives out monthly PTE predictions with a success rate of over 50%"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: página promocional 'Get Access Now' — itens WFD/RS não acessíveis sem pagamento; volume anômalo (245/235) sem editorial acessível."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-84",
+   "nome": null,
+   "url": "https://ambitionabroad.in/pte-prediction-file/",
+   "dominio": "ambitionabroad.in",
+   "grupoOperador": null,
+   "tipos": [
+    "repeat_sentence",
+    "wfd"
+   ],
+   "volumeAparente": "Não informado; prediction file semanal, sete tipos de questão.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Blog de preparação indiano, com página de prediction file datada de 2025.",
+     "A página identifica explicitamente WFD e Repeat Sentence."
+    ],
+    "negativos": [
+     "Não há contagem de itens por tipo nos trechos indexados.",
+     "A página descreve um arquivo PDF de 19 MB; verificar acesso direto e gratuito antes de usar.",
+     "Alegações de taxas de repetição não são verificadas."
+    ],
+    "trechos": [
+     "The Prediction file is updated weekly.",
+     "Repeat Sentence. (55% Repeat Rate)",
+     "Write From Dictations (99% Repeat Rate) (Most Important)",
+     "All of the materials are also available to practice from website as well with automatic scoring for free"
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G2 falha: 'Download' sem link de PDF direto acessível (sem itens inline); alegações de repeat rate não verificadas."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-85",
+   "nome": null,
+   "url": "https://www.stormedugo.com/blog/top-100-most-repeated-write-from-dictation-sentences-2025-edition",
+   "dominio": "stormedugo.com",
+   "grupoOperador": "stormedugo",
+   "tipos": [
+    "wfd"
+   ],
+   "volumeAparente": "100+ itens anunciados; trecho indexado mostra ao menos 18 exemplos.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página de blog de preparação com data de 16 de abril de 2025.",
+     "Lista e itens de exemplo aparecem diretamente no trecho indexado."
+    ],
+    "negativos": [
+     "O trecho não comprova acesso à lista completa nem volume acima de 100.",
+     "A afirmação de que os itens vêm de recalls e inputs especializados não é verificável no trecho."
+    ],
+    "trechos": [
+     "Based on extensive exam recalls and expert inputs, we’ve compiled 100+ most repeated Write From Dictation (WFD) sentences",
+     "1. Air pollution is a serious problem all over the world.",
+     "2. Eating fish twice a week is recommended for a healthy diet.",
+     "3. There is no economic reason why public borrowing is necessarily bad.",
+     "10. More research is required in the field of food science."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Lista 'top 100 most repeated WFD' datada 2025-04-16; 144 itens na seção, amostra 10/10 íntegra na faixa 3–20 palavras; G1–G3 ok."
+   },
+   "corroboracao": {
+    "items": 294,
+    "corroborated": 95,
+    "pct": 32.3,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 95/294 itens (32.3%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 144
+  },
+  {
+   "id": "cand-86",
+   "nome": null,
+   "url": "https://www.stormedugo.com/blog/top-100-most-repeated-pte-repeated-sentences-2025-edition",
+   "dominio": "stormedugo.com",
+   "grupoOperador": "stormedugo",
+   "tipos": [
+    "repeat_sentence"
+   ],
+   "volumeAparente": "100 itens anunciados; trecho indexado mostra ao menos 17 exemplos.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página de blog de preparação com data de 16 de abril de 2025.",
+     "A página atribui a lista a recalls recentes e sessões de prática; exemplos aparecem no trecho indexado."
+    ],
+    "negativos": [
+     "A proveniência e a alegação de repetição não são verificadas independentemente.",
+     "O trecho não confirma a quantidade total acessível."
+    ],
+    "trechos": [
+     "we've compiled a list of the top 100 most repeated PTE Repeat Sentences based on recent exam memory recalls and authentic practice sessions.",
+     "1. The wheelchair lift has been upgraded this month.",
+     "2. Doing this research makes me think of the purpose of science.",
+     "5. To receive the reimbursement, you must keep the original receipts.",
+     "14. The visiting professor is going to give a lecture on geology."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Lista 'top 100 most repeated RS' datada 2025-04-16; 100 itens, amostra 10/10 íntegra na faixa 4–25 palavras; G1–G3 ok."
+   },
+   "corroboracao": {
+    "items": 294,
+    "corroborated": 95,
+    "pct": 32.3,
+    "score": 30,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 95/294 itens (32.3%) corroborados por operadores independentes → 30/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 100
+  },
+  {
+   "id": "cand-87",
+   "nome": null,
+   "url": "https://ptehelper.com.au/du-doan-de-pte-repeat-sentence/",
+   "dominio": "ptehelper.com.au",
+   "grupoOperador": "ptehelper",
+   "tipos": [
+    "repeat_sentence"
+   ],
+   "volumeAparente": "Não informado; o trecho contém 14 exemplos numerados.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 66,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página australiana de previsão PTE, datada de 24 de fevereiro de 2025.",
+     "Inclui exemplos de frases em inglês e indica um conjunto de previsão de maio de 2025."
+    ],
+    "negativos": [
+     "A contagem completa não aparece no trecho.",
+     "A página menciona prática em software externo; confirmar que a lista da página é acessível sem cadastro."
+    ],
+    "trechos": [
+     "Dự đoán đề Repeat Sentence tháng 5/2025",
+     "Dưới đây là bộ tủ PTE Repeat Sentence có tỷ lệ ra thi cao tháng 5/2025.",
+     "We are changing classroom because this one is too small.",
+     "Student loans are now available for international students.",
+     "The United Kingdom is a constitutional monarchy and parliamentary democracy."
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "'Bộ tủ' RS com ~788 itens numerados (até #989); amostra 10/10 íntegra; C2 alegado pela fonte ('tỷ lệ ra thi cao'); operatorGroup ptehelper já aprovado."
+   },
+   "corroboracao": {
+    "items": 442,
+    "corroborated": 71,
+    "pct": 16.1,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 71/442 itens (16.1%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 224
+  },
+  {
+   "id": "cand-88",
+   "nome": null,
+   "url": "https://onepte.com/wp-content/uploads/2025/02/OnePTE-Prediction-Repeat-Sentence-2025.pdf",
+   "dominio": "onepte.com",
+   "grupoOperador": "oneppte",
+   "tipos": [
+    "repeat_sentence"
+   ],
+   "volumeAparente": "PDF de previsão; contagem total não informada no trecho indexado.",
+   "status": "aprovada",
+   "nivel": "corroborada",
+   "confianca": 62,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "PDF de previsões 2025 com exemplos de itens RS diretamente indexados.",
+     "Contém frases de 4 a 25 palavras compatíveis com repeat_sentence."
+    ],
+    "negativos": [
+     "O trecho indexado não revela o total de itens.",
+     "Acesso ao PDF deve ser conferido diretamente; não há evidência no trecho sobre eventual barreira."
+    ],
+    "trechos": [
+     "Higher numbers of patients were infected than during previous outbreaks of the illness",
+     "The teacher shared his understanding of social relationships with his students",
+     "Higher fees make students think more critically about what universities can offer",
+     "The author expressed the idea that modern readers invariably cannot accept"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "PDF prediction RS 2025; ~119 itens em faixa; ~5 truncados (drop no extrator); 1 item incoerente para review; amostra 10."
+   },
+   "corroboracao": {
+    "items": 150,
+    "corroborated": 27,
+    "pct": 18,
+    "score": 15,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "corroborada",
+     "para": "corroborada",
+     "motivo": "re-avaliação: corroboração cruzada recalculada pela matriz global — 27/150 itens (18%) corroborados por operadores independentes → 15/30"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 62
+  },
+  {
+   "id": "cand-89",
+   "nome": null,
+   "url": "https://webberz.in/blog/?p=2482",
+   "dominio": "webberz.in",
+   "grupoOperador": null,
+   "tipos": [
+    "repeat_sentence"
+   ],
+   "volumeAparente": "Não informado; trecho indexado mostra ao menos 2 exemplos.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Blog de preparação indiano com previsão de speaking de março de 2025.",
+     "O trecho mostra itens apresentados como sessão de prática."
+    ],
+    "negativos": [
+     "O material visível no trecho é principalmente orientação e o volume da lista não está claro.",
+     "O exemplo disponível não permite confirmar que a lista completa seja substancial."
+    ],
+    "trechos": [
+     "Predicted PTE Speaking – Repeat Sentence – March 2025",
+     "Practice Session – March 2025",
+     "Students gathered in the library to complete their group assignments."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "Volume ínfimo (~2 exemplos) e conteúdo majoritariamente orientação; não justifica gate de extração."
+   },
+   "corroboracao": null,
+   "historicoDeNivel": [],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  },
+  {
+   "id": "cand-90",
+   "nome": null,
+   "url": "https://www.gurully.com/blog/pte-academic-repeat-sentence-examples/",
+   "dominio": "gurully.com",
+   "grupoOperador": "gurully",
+   "tipos": [
+    "repeat_sentence"
+   ],
+   "volumeAparente": "25+ exemplos anunciados.",
+   "status": "aprovada",
+   "nivel": "comunitaria",
+   "confianca": 63,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Página de preparação com previsão e exemplos de RS; publicada em fevereiro de 2025.",
+     "O trecho inclui transcrição de exemplo e link de áudio."
+    ],
+    "negativos": [
+     "Volume anunciado fica abaixo da meta de 200.",
+     "Página promociona prática e mock test da plataforma; confirmar que a lista é acessível sem cadastro."
+    ],
+    "trechos": [
+     "## 25 + Predictive PTE Academic Repeat Sentence Examples",
+     "Audio:",
+     "https://www.gurully.com/blog/wp-content/uploads/2025/02/RS_AC_0038.mp3",
+     "Transcript:"
+    ]
+   },
+   "amostraManual": {
+    "inspected": 10,
+    "defects": 0,
+    "notes": "amostra manual 10 itens (protocolo de amostra); sorteio determinístico"
+   },
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "30 itens RS com áudio + transcript inline; amostra 10/30; operatorGroup gurully já aprovado (answer_short)."
+   },
+   "corroboracao": {
+    "items": 805,
+    "corroborated": 1,
+    "pct": 0.1,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": "comunitaria",
+     "para": "comunitaria",
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 30
+  },
+  {
+   "id": "cand-91",
+   "nome": null,
+   "url": "https://www.ptesprinters.com/category/write-from-dictation/",
+   "dominio": "ptesprinters.com",
+   "grupoOperador": null,
+   "tipos": [
+    "wfd"
+   ],
+   "volumeAparente": "Arquivo de categoria com múltiplas listas; total não informado.",
+   "status": "reprovada",
+   "nivel": null,
+   "confianca": null,
+   "licenca": null,
+   "evidencia": {
+    "positivos": [
+     "Blog de preparação com arquivo de categoria e diversos trechos de frases WFD indexados.",
+     "O conteúdo inclui frases curtas de ditado e referências a conjuntos de itens."
+    ],
+    "negativos": [
+     "O trecho não fornece contagem total consolidada.",
+     "Parte do material indexado aparenta ser antigo; validar relevância para 2023–2025."
+    ],
+    "trechos": [
+     "The celebrated theory is still the source of great controversy.",
+     "I thought a good architectural structure should be useful, durable and beautiful.",
+     "We can all meet at my office after […]",
+     "1. A celebrated theory is still the source of great controversy. 2. A group meeting will be held tomorrow in the library conference room."
+    ]
+   },
+   "amostraManual": null,
+   "decisaoDeGate": {
+    "data": "2026-10-18",
+    "motivo": "G1 falha: fetch falhou 2× (erro de rede/UA); sem acesso ao conteúdo integral — reprovar e registrar."
+   },
+   "corroboracao": {
+    "items": 20,
+    "corroborated": 0,
+    "pct": 0,
+    "score": 0,
+    "evaluatedAt": "2026-10-18",
+    "basis": "matriz global (ondas 1–3 + pares)"
+   },
+   "historicoDeNivel": [
+    {
+     "de": null,
+     "para": null,
+     "motivo": "re-avaliação: corroboração cruzada < 10% (score 0) — tier mantido"
+    }
+   ],
+   "verificadoEm": "2026-10-18",
+   "itensNoBanco": 0
+  }
+ ]
+}
