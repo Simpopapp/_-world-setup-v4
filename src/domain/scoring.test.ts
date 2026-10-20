@@ -22,7 +22,11 @@ function tally(overrides: Partial<TypeSignal> = {}): TypeSignal {
   return { attempts: 0, correct: 0, partial: 0, incorrect: 0, abstained: 0, ...overrides };
 }
 
-function entry(type: AttemptSignal["type"], at: number, result: AttemptSignal["result"]): AttemptSignal {
+function entry(
+  type: AttemptSignal["type"],
+  at: number,
+  result: AttemptSignal["result"],
+): AttemptSignal {
   return { type, at, result };
 }
 

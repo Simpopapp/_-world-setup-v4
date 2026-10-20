@@ -38,7 +38,8 @@ export const Route = createFileRoute("/progresso")({
       { property: "og:title", content: "Progresso — PTE Master Hub" },
       {
         property: "og:description",
-        content: "Estimativas de treino, evolução e relatório exportável, derivados das suas tentativas.",
+        content:
+          "Estimativas de treino, evolução e relatório exportável, derivados das suas tentativas.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -237,7 +238,9 @@ function ProgressoPage() {
           (manifesto gerado).
         </p>
         {gaps.length === 0 ? (
-          <p className="text-xs text-success">Todos os tipos do catálogo já têm ao menos uma tentativa.</p>
+          <p className="text-xs text-success">
+            Todos os tipos do catálogo já têm ao menos uma tentativa.
+          </p>
         ) : (
           <div className="flex flex-wrap gap-2">
             {gaps.map(({ def, count }) => (
@@ -323,7 +326,10 @@ type EstimateLike = {
 type ReadinessLike = { value: number | null; confidence: string; trend: string | null } | null;
 
 type AggregatesLike = {
-  byType: Record<string, { attempts: number; correct: number; partial: number; incorrect: number; abstained: number }>;
+  byType: Record<
+    string,
+    { attempts: number; correct: number; partial: number; incorrect: number; abstained: number }
+  >;
   byErrorTag: Record<string, number>;
   studiedDays: string[];
 } | null;
@@ -349,7 +355,11 @@ function exportJson(
     tentativasNoLog: log?.length ?? 0,
     baseMatriz: estimateBasis(),
   };
-  download(`relatorio-pte-${getLocalDayKey()}.json`, JSON.stringify(report, null, 2), "application/json");
+  download(
+    `relatorio-pte-${getLocalDayKey()}.json`,
+    JSON.stringify(report, null, 2),
+    "application/json",
+  );
 }
 
 function csvCell(value: string | number): string {

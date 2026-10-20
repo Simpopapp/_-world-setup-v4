@@ -213,14 +213,13 @@ export function estimateReadiness(input: ScoringInput): Readiness {
       attemptsUsed: 0,
     };
   }
-  const weights = signals.map((s) =>
-    Math.max(0.25, 1 - (input.now - s.at) / READINESS_DECAY_MS),
-  );
+  const weights = signals.map((s) => Math.max(0.25, 1 - (input.now - s.at) / READINESS_DECAY_MS));
   const weightSum = weights.reduce((acc, w) => acc + w, 0);
   const perf =
     signals.reduce((acc, s, i) => acc + signalValue(s.result) * weights[i]!, 0) / weightSum;
   const trend = estimateTrend(input);
-  const trendBonus = trend === "subindo" ? 12 : trend === "estavel" ? 4 : trend === "caindo" ? -6 : 0;
+  const trendBonus =
+    trend === "subindo" ? 12 : trend === "estavel" ? 4 : trend === "caindo" ? -6 : 0;
   const confidence = confidenceFor(signals.length);
   const confidenceBonus = confidence === "alta" ? 14 : confidence === "media" ? 8 : 0;
   const value = Math.max(0, Math.min(100, Math.round(perf * 70 + trendBonus + confidenceBonus)));
