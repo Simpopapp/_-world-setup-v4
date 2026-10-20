@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { notifyProgressChanged, onProgressChanged, progress } from "@/lib/progress/client";
 import type {
+  AttemptLogEntry,
   PracticeSession,
   ProgressAggregates,
   QuestionSnapshot,
@@ -67,6 +68,16 @@ export function useMeta(): StudentMeta | null {
     setMeta(progress.getMeta());
   }, [revision]);
   return meta;
+}
+
+/** Log de tentativas (mais recentes primeiro) — alimenta evolução e relatório (Fase 8). */
+export function useAttemptLog(): AttemptLogEntry[] | null {
+  const revision = useProgressRevision();
+  const [log, setLog] = useState<AttemptLogEntry[] | null>(null);
+  useEffect(() => {
+    setLog(progress.getLog());
+  }, [revision]);
+  return log;
 }
 
 /** Wrapper que grava e notifica os widgets. */

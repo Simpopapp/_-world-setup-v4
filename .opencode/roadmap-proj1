@@ -22,7 +22,19 @@ Onda = distribuição do enxame (PRD §3). Próximo remix retoma na primeira fas
 
 ## Onda 4 — Sessões + Medição (paralela)
 - [x] **Fase 7 — Sessões e diagnóstico (s8-sessoes; execução: agente principal):** sessões retomáveis (catálogo 10 itens por tipo + retomada na home), fila do dia real (queue.ts puro: dueAt <= now, ordem por vencimento, cap 30; botão na home quando dueTotal > 0), diagnóstico por categoria de erro (tags derivadas do grading objetivo: omissao/conteudo/armadilha/palavra), notas privadas/favoritos por questão (painel na prática e na sessão; backup inclui notas; sessões fora do backup, cap 20). Gates: teste de recarregamento ✔ (persistência de sessão em nova instância do repo + E2E Playwright: responder → recarregar → cursor/nota/favorito restaurados) · teste SRS fila ✔ (queue.test.ts: vencidos, ordem, cap, vazio; 108/108 no total) · tsgo 0 ✔ · lint 0 erros/7 avisos ✔ · build ✔ · E2E fila do dia: parcial → item vencido → "Iniciar fila do dia" cria sessão ✔
-  - [ ] **Fase 8 — Medição honesta (s9-medicao):** scoring 10–90 rotulado, prontidão, /progresso com gráficos e relatório exportável. Gates: testes scoring ✔ · rótulo "estimativa" na UI ✔ · export ✔
+  - [x] **Fase 8 — Medição honesta (s9-medicao; execução: agente principal — decisão 10):**
+        `domain/scoring.ts` puro (estimativa 10–90 rotulada por habilidade com confiança
+        baixa/média/alta por volume de sinal; abstenção nunca entra como zero; prontidão =
+        desempenho recente ponderado + tendência + confiança; base = matriz aproximada com fonte
+        citada), testes em `scoring.test.ts`, `/progresso` com estimativas rotuladas, prontidão
+        com tendência, gráfico de evolução diária (recharts, dias sem sinal ficam sem linha),
+        lacunas de cobertura (tipos × contagem do manifesto) e relatório exportável JSON/CSV.
+        Gates: vitest 124/124 (16 casos de scoring: sem sinal, piso/teto 10–90, abstenção,
+        parcial=½, confiança, tendência, prontidão, série diária) ✔ · rótulo "estimativa de
+        treino" na UI ✔ (seção, cartões e prontidão) · export JSON+CSV ✔ (arquivos reais
+        conferidos: relatorio-pte-2026-10-20.json/.csv) · tsgo 0 ✔ · lint 0 erros/7 avisos ✔ ·
+        build ✔ · Playwright /progresso: vazio (export desabilitado) → dados semeados →
+        estimativas/prontidão/gráfico/lacunas renderizados, 0 erros de página ✔
 
 ## Onda 5 — Simulado + Studie Plus (paralela)
 - [ ] **Fase 9 — Simulado (s10-simulado):** blueprint com omissões visíveis, mini-simulado, fluxo inviolável, relatório pós-prova. Gates: Playwright mini-simulado completo ✔ · sem consulta ✔ · relatório coerente ✔
@@ -39,4 +51,14 @@ Gates finais do projeto: total 2823 conferido · 22 tipos praticáveis · avalia
 estimativas rotuladas · backup/quarentena testados · offline provado em build de produção.
 
 ## Estado para o próximo remix
-Próximo remix: **Fase 8 — Medição honesta (s9-medicao)** (Onda 4). Fase 7 concluída e verificada nesta rodada: `src/lib/progress/queue.ts` (fila pura do SRS), sessões em `repository.ts` (CRUD + cap 20, fora do backup), tags de erro em `grading.ts`/`errorTagsFromDetail`, painel de notas `src/features/notas.tsx`, rota `src/routes/sessao.$sessionId.tsx` (retomável, grava tentativa + SRS + tags + notas), home com retomada + "Iniciar fila do dia", `/diagnostico` com "Por categoria de erro" e tipo mais fraco. Auditoria/E2E: Playwright confirmou recarregamento restaurando cursor/nota/favorito e a fila do dia criada a partir de item vencido (parcial de reorder). Gates finais da rodada: vitest 108/108 · tsgo 0 · lint 0 erros/7 avisos · build ✔ · E2E sessão/fila/notas/diagnóstico sem erros de página ✔.
+Próximo remix: **Fase 9 — Simulado (s10-simulado)** (Onda 5). Fase 8 concluída e verificada nesta
+rodada: `src/domain/scoring.ts` (estimativa 10–90 rotulada "estimativa de treino" por habilidade com
+confiança baixa/média/alta; abstenção nunca entra como zero; prontidão = desempenho recente ponderado
++ tendência + confiança; base declarada = matriz aproximada com fonte citada), `scoring.test.ts`
+(16 casos), `/progresso` reescrita (estimativas/prontidão rotuladas, gráfico de evolução diária,
+lacunas de cobertura com contagem do manifesto, relatório exportável JSON/CSV gerado no navegador),
+`useAttemptLog` em `use-progress.ts`. Gates da rodada: vitest 124/124 · tsgo 0 · lint 0 erros/7
+avisos · build OK · Playwright /progresso (vazio → dados → downloads JSON/CSV reais) 0 erros de
+página. Status da etapa: `docs/planning/stages/stage-08-status.md`. Bloqueio registrado: runtime
+OpenCode sem credenciais de modelo neste ambiente (0 em auth.json) — o aviso de fim de rodada foi
+registrado em disco para o monitor; a mensagem ao runtime falhou por autenticação.
