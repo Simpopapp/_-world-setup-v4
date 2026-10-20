@@ -22,7 +22,19 @@ Onda = distribuição do enxame (PRD §3). Próximo remix retoma na primeira fas
 
 ## Onda 4 — Sessões + Medição (paralela)
 - [x] **Fase 7 — Sessões e diagnóstico (s8-sessoes; execução: agente principal):** sessões retomáveis (catálogo 10 itens por tipo + retomada na home), fila do dia real (queue.ts puro: dueAt <= now, ordem por vencimento, cap 30; botão na home quando dueTotal > 0), diagnóstico por categoria de erro (tags derivadas do grading objetivo: omissao/conteudo/armadilha/palavra), notas privadas/favoritos por questão (painel na prática e na sessão; backup inclui notas; sessões fora do backup, cap 20). Gates: teste de recarregamento ✔ (persistência de sessão em nova instância do repo + E2E Playwright: responder → recarregar → cursor/nota/favorito restaurados) · teste SRS fila ✔ (queue.test.ts: vencidos, ordem, cap, vazio; 108/108 no total) · tsgo 0 ✔ · lint 0 erros/7 avisos ✔ · build ✔ · E2E fila do dia: parcial → item vencido → "Iniciar fila do dia" cria sessão ✔
-  - [ ] **Fase 8 — Medição honesta (s9-medicao):** scoring 10–90 rotulado, prontidão, /progresso com gráficos e relatório exportável. Gates: testes scoring ✔ · rótulo "estimativa" na UI ✔ · export ✔
+  - [x] **Fase 8 — Medição honesta (s9-medicao; execução: agente principal — decisão 10):**
+        `domain/scoring.ts` puro (estimativa 10–90 rotulada por habilidade com confiança
+        baixa/média/alta por volume de sinal; abstenção nunca entra como zero; prontidão =
+        desempenho recente ponderado + tendência + confiança; base = matriz aproximada com fonte
+        citada), testes em `scoring.test.ts`, `/progresso` com estimativas rotuladas, prontidão
+        com tendência, gráfico de evolução diária (recharts, dias sem sinal ficam sem linha),
+        lacunas de cobertura (tipos × contagem do manifesto) e relatório exportável JSON/CSV.
+        Gates: vitest 124/124 (16 casos de scoring: sem sinal, piso/teto 10–90, abstenção,
+        parcial=½, confiança, tendência, prontidão, série diária) ✔ · rótulo "estimativa de
+        treino" na UI ✔ (seção, cartões e prontidão) · export JSON+CSV ✔ (arquivos reais
+        conferidos: relatorio-pte-2026-10-20.json/.csv) · tsgo 0 ✔ · lint 0 erros/7 avisos ✔ ·
+        build ✔ · Playwright /progresso: vazio (export desabilitado) → dados semeados →
+        estimativas/prontidão/gráfico/lacunas renderizados, 0 erros de página ✔
 
 ## Onda 5 — Simulado + Studie Plus (paralela)
 - [ ] **Fase 9 — Simulado (s10-simulado):** blueprint com omissões visíveis, mini-simulado, fluxo inviolável, relatório pós-prova. Gates: Playwright mini-simulado completo ✔ · sem consulta ✔ · relatório coerente ✔
