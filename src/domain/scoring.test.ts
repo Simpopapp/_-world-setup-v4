@@ -12,6 +12,7 @@ import {
   type ScoringInput,
   type TypeSignal,
 } from "@/domain/scoring";
+import { getLocalDayKey } from "@/lib/progress/day";
 import { ABILITY_MATRIX } from "@/domain/ability-matrix";
 
 const DAY = 86_400_000;
@@ -177,12 +178,12 @@ describe("scoring — tendência e prontidão", () => {
 describe("scoring — série diária para o gráfico de evolução", () => {
   it("acurácia por dia local: sinal único → 1; dia sem sinal → null", () => {
     const log: AttemptSignal[] = [
-      entry("wfd", NOW - DAY / 2, "correct"),
-      entry("wfd", NOW - DAY / 2 + 60_000, "correct"),
+      entry("wfd", NOW - 3_600_000, "correct"),
+      entry("wfd", NOW - 1_800_000, "correct"),
     ];
     const series = dailyAccuracySeries(log, 3, NOW);
     expect(series).toHaveLength(3);
-    expect(series[2]!.day).toBeLessThanOrEqual(series[2]!.day); // dias em ordem
+    expect(series[2]!.day).toBe(getLocalDayKey(NOW));
     expect(series[2]!.signals).toBe(2);
     expect(series[2]!.accuracy).toBe(1);
     expect(series[0]!.accuracy).toBeNull();
