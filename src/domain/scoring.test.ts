@@ -150,12 +150,12 @@ describe("scoring — tendência e prontidão", () => {
     expect(estimateTrend(makeInput({ log: log.slice(0, 3) }))).toBeNull();
   });
 
-  it("abstenções não contam como erro na tendência", () => {
+  it("abstenções não contam como erro na tendência: só sobram 3 sinais → null", () => {
     const log: AttemptSignal[] = [
       ...[1, 2, 3].map((i) => entry("wfd", NOW - 10 * DAY + i * 60_000, "abstained")),
-      ...[1, 2, 3, 4].map((i) => entry("wfd", NOW - i * 60_000, "correct")),
+      ...[1, 2, 3].map((i) => entry("wfd", NOW - i * 60_000, "correct")),
     ];
-    expect(estimateTrend(makeInput({ log }))).toBeNull(); // só 4 sinais
+    expect(estimateTrend(makeInput({ log }))).toBeNull(); // 4 no log, só 3 sinais
   });
 
   it("prontidão sem dados → null; com dados → 0–100 com confiança coerente", () => {

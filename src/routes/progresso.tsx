@@ -340,7 +340,7 @@ function exportJson(
     app: "PTE Master Hub",
     geradoEm: new Date().toISOString(),
     escala: "10–90 (estimativa de treino — nunca nota oficial)",
-    estimativas,
+    estimativas: estimates,
     prontidao: readiness,
     tendencia: trend,
     porTipo: aggregates?.byType ?? {},
